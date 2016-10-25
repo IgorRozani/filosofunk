@@ -1,7 +1,25 @@
 body {
+    min-width: 500px;
     background-color: #fff;
-    background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), linear-gradient(#eee .1em, transparent .1em);
+    background-image: linear-gradient(90deg, transparent 59px, rgb(240,70,79) 59px, rgb(240,70,79) 61px, transparent 61px), linear-gradient(#eee .1em, transparent .1em);
     background-size: 100% 1.2em;
+    font-family: 'Dancing Script', Georgia, Times, serif;
+}
+/*#abced4*/
+
+header{
+    text-align: center;
+}
+
+header h1 {
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+header h6{
+    font-size: 25px;
+    margin-top: 0px;
 }
 
 container {
@@ -9,29 +27,32 @@ container {
 }
 
 blockquote {
-    font-family: 'Dancing Script', Georgia, Times, serif;
+    /*font-family: 'Dancing Script', Georgia, Times, serif;*/
     font-size: 59px;
     line-height: 60px;
     padding-left: 50px;
+    font-weight: bold;
 }
 
 p.autor {
     float: right;
     margin-right: 100px;
     margin-top: -45px;
-    font-family: 'Dancing Script', Georgia, Times, serif;
+    /*font-family: 'Dancing Script', Georgia, Times, serif;*/
     font-size: 30px;
 }
 
 .button {
-    background-color: transparent; /* Green */
+    background-color: transparent;
     border: none;
-    color: #abced4;
+    color: rgb(70,81,206);
     font-weight: bold;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
-    font-family: 'Dancing Script', Georgia, Times, serif;
+    /*font-family: 'Dancing Script', Georgia, Times, serif;*/
+    padding-left: 80px;
+    padding-top: 100px;
 }
