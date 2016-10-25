@@ -15,11 +15,13 @@ header h1 {
     font-size: 50px;
     padding: 0px;
     margin: 0px;
+    color:rgb(240,50,50);
 }
 
 header h6{
     font-size: 25px;
     margin-top: 0px;
+    color:rgb(240,50,50);
 }
 
 container {
@@ -27,7 +29,6 @@ container {
 }
 
 blockquote {
-    /*font-family: 'Dancing Script', Georgia, Times, serif;*/
     font-size: 59px;
     line-height: 60px;
     padding-left: 50px;
@@ -38,7 +39,6 @@ p.autor {
     float: right;
     margin-right: 100px;
     margin-top: -45px;
-    /*font-family: 'Dancing Script', Georgia, Times, serif;*/
     font-size: 30px;
 }
 
@@ -52,7 +52,6 @@ p.autor {
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
-    /*font-family: 'Dancing Script', Georgia, Times, serif;*/
     padding-left: 80px;
     padding-top: 100px;
 }

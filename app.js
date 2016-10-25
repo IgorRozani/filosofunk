@@ -37,7 +37,7 @@ request.onerror = function () {
 };
 
 function exibirPoesia(poesia) {
-    document.getElementById("poesia").innerText = poesia.slogan;
+    document.getElementById("poesia").innerText = '"'+poesia.slogan+'"';
     document.getElementById("poeta").innerText = poesia.name;
 
     var idVideo = "KNFhffBOyWo";
