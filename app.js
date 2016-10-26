@@ -20,13 +20,13 @@ function randomNumber(totalelements) {
 
 // substituindo $.getJSON()
 var request = new XMLHttpRequest();
-request.open('GET', 'https://raw.githubusercontent.com/IgorRozani/what-should-i-study/master/server/technology.json', true);
+request.open('GET', './poesias.json', true);
 request.onload = function () {
     if (request.status >= 200 && request.status < 400) {
         // Success!
         var data = JSON.parse(request.responseText);
         var poesia = data[randomNumber(data.length)];
-        console.log(poesia);
+
         exibirPoesia(poesia);
     } else {
         console.log("Falha ao obter dados do Json");
@@ -37,8 +37,8 @@ request.onerror = function () {
 };
 
 function exibirPoesia(poesia) {
-    document.getElementById("poesia").innerText = '"'+poesia.slogan+'"';
-    document.getElementById("poeta").innerText = poesia.name;
+    document.getElementById("poesia").innerText = '"'+poesia.poesia+'"';
+    document.getElementById("poeta").innerText = poesia.poeta;
 
     // var idVideo = "KNFhffBOyWo";
     // var inicio = 35;
