@@ -40,10 +40,10 @@ function exibirPoesia(poesia) {
     document.getElementById("poesia").innerText = '"'+poesia.slogan+'"';
     document.getElementById("poeta").innerText = poesia.name;
 
-    var idVideo = "KNFhffBOyWo";
-    var inicio = 35;
-    var fim = 36;
+    // var idVideo = "KNFhffBOyWo";
+    // var inicio = 35;
+    // var fim = 36;
 
-    var video = "https://www.youtube.com/embed/" + idVideo + "?start=" + inicio + "&end=" + fim + "&autoplay=1";
-    document.getElementsByTagName("iframe")[0].setAttribute("src", video);
+    // var video = "https://www.youtube.com/embed/" + idVideo + "?start=" + inicio + "&end=" + fim + "&autoplay=1";
+    // document.getElementsByTagName("iframe")[0].setAttribute("src", video);
 }
