@@ -33,6 +33,7 @@ blockquote {
     line-height: 60px;
     padding-left: 50px;
     font-weight: bold;
+    text-align: center;
 }
 
 p.autor {
