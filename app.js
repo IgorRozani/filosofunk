@@ -42,7 +42,7 @@ request.onload = function () {
             ds = dataShufle;
         }
 
-        exibirPoesia(data[ds.shift() || ds.shift()]);
+        exibirPoesia(data[ds.shift() || 0]);
         localStorage.setItem("shuffle", JSON.stringify(ds));
     } else {
         console.log("Falha ao obter dados do Json");
@@ -64,6 +64,6 @@ function declamar(event) {
     if (!ds || !ds.length){
         window.location.reload();
     }
-    exibirPoesia(data[ds.shift() || ds.shift()]);
+    exibirPoesia(data[ds.shift() || 0]);
     localStorage.setItem("shuffle", JSON.stringify(ds));
 }
