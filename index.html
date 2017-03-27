@@ -21,7 +21,7 @@
 </head>
 
 <body>
-	<div id="fb-root"></div>
+<div id="fb-root"></div>
 	<script>
 		(function(d, s, id) {
 	var js, fjs = d.getElementsByTagName(s)[0];
@@ -40,14 +40,16 @@
 	</header>
 
 	<div class="container">
-		<blockquote id="poesia"></blockquote>
-		<p class="autor" id="poeta"></p>
+    <img src="mascote.png" style="opacity:0.2;position:absolute; right:0;bottom:0;">
+    <div class="container" style="position:relative;">
+      <blockquote id="poesia"></blockquote>
+      <p class="autor" id="poeta"></p>
+      <a href="" onclick="declamar(event)" class="button">Declamar outra poesia</a>
 
-		<a href="" onclick="declamar(event)" class="button">Declamar outra poesia</a>
-
-		<div class="fb-like facebook" data-href="https://www.facebook.com/filosofunksite/" data-layout="button" data-action="like"
-			data-size="small" data-show-faces="true" data-share="true"></div>
-	</div>
+      <div class="fb-like facebook" data-href="https://www.facebook.com/filosofunksite/" data-layout="button" data-action="like"
+        data-size="small" data-show-faces="true" data-share="true"></div>
+    </div>
+  </div>
 </body>
 
 </html>
