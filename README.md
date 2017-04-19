@@ -15,4 +15,4 @@ As frases estão armazenadas no arquivo [poesias.json](https://github.com/IgorRo
         "poeta": "autor da frase"
 }
 ```
-Ao adicionar o nome do autor, escrever primeiro o último nome seguido de uma vírgula, o primeiro nome e os demais nomes abreviados. Exemplo: "Baraco, Tati Q.".
+Ao adicionar o nome do autor, escrever primeiro o último nome seguido de uma vírgula, o primeiro nome e os demais nomes abreviados. Exemplo: "Barraco, Tati Q.".
