@@ -34,13 +34,21 @@ blockquote {
     padding-left: 50px;
     font-weight: bold;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
-p.autor {
-    float: right;
-    margin-right: 100px;
-    margin-top: -45px;
+p.titulo {
+    padding-left: 80px;
     font-size: 30px;
+}
+
+p.poeta {
+    padding-left: 80px;
+    margin-right: 100px;
+    margin-top: 15px;
+    font-size: 30px;
+    text-align: right;
 }
 
 .button {

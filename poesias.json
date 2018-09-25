@@ -1,120 +1,152 @@
 [
     {
-        "poesia": "Foca mas não sufoca",
-        "poeta": "Laden, Bin"
+        "estrofe": "Foca mas não sufoca",
+        "poesia": "Ta Tranquilo Ta Favorável",
+        "poeta": "Mc Bin Laden"
     },
     {
-        "poesia": "Você é tipo pantufa, em casa é gostosinha mas fora passo vergonha",
-        "poeta": "Lemond, Edy"
+        "estrofe": "Você é tipo pantufa, em casa é gostosinha mas fora passo vergonha",
+        "poesia": "Pensando em você",
+        "poeta": "Edy Lemond"
     },
     {
-        "poesia": "Nois é bom mas não é bombom",
-        "poeta": "Laden, Bin"
+        "estrofe": "Nois é bom mas não é bombom",
+        "poesia": "Ta Tranquilo Ta Favorável",
+        "poeta": "Mc Bin Laden"
     },
     {
-        "poesia": "Ta locona de pão de queijo?",
-        "poeta": "Laden, Bin"
+        "estrofe": "Ta locona de pão de queijo?",
+        "poesia": "Aham, Pode Pá",
+        "poeta": "Mc Bin Laden"
     },
     {
-        "poesia": "Quem é o teu homem? Vamo no cartório pra te passar pro meu nome",
-        "poeta": "Maromba, MC"
+        "estrofe": "Quem é o teu homem? Vamo no cartório pra passa teu cu pro meu nome",
+        "poesia": "Quem é o teu Homem",
+        "poeta": "Mc Maromba"
     },
     {
-        "poesia": "Toda obra prima tem a sua materia prima",
-        "poeta": "Dynamitze, B"
+        "estrofe": "Toda obra prima tem a sua materia prima",
+        "poesia": "Quer Ficar Grandão",
+        "poeta": "B-Dynamitze"
     },
     {
-        "poesia": "Quando a piroca tem dona é que vem a vontade de fuder",
-        "poeta": "Popozuda, Valesca"
+        "estrofe": "Quando a piroca tem dona é que vem a vontade de fuder",
+        "poesia": "Mama",
+        "poeta": "Valesca Popozuda & Mr Catra"
     },
     {
-        "poesia": "Late mais alto que daqui eu não te escuto",
-        "poeta": "Popozuda, Valesca"
+        "estrofe": "Late mais alto que daqui eu não te escuto",
+        "poesia": "Beijinho no Ombro",
+        "poeta": "Valesca Popozuda"
     },
     {
-        "poesia": "Desejo a todas inimigas vida longa, para que elas vejam a cada dia nossa vitória",
-        "poeta": "Popozuda, Valesca"
+        "estrofe": "Desejo a todas inimigas vida longa, para que elas vejam a cada dia nossa vitória",
+        "poesia": "Beijinho no Ombro",
+        "poeta": "Valesca Popozuda"
     },
     {
-        "poesia": "Todas que provaram, não conseguem esquecer.",
-        "poeta": "Avassaladores, Os"
+        "estrofe": "Todas que provaram, não conseguem esquecer.",
+        "poesia": "Sou Foda",
+        "poeta": "Avassaladores"
     },
     {
-        "poesia": "Eu sou sinistro, melhor que seu marido, esculacho seu amigo, no escuro eu sou um perigo.",
-        "poeta": "Avassaladores, Os"
+        "estrofe": "Eu sou sinistro, melhor que seu marido, esculacho seu amigo, no escuro eu sou um perigo.",
+        "poesia": "Sou Foda",
+        "poeta": "Avassaladores"
     },
     {
-        "poesia": "Um pente é pente",
-        "poeta": "Havaianos, Os"
+        "estrofe": "Um pente é pente",
+        "poesia": "É o pente",
+        "poeta": "Os Hawaianos"
     },
     {
-        "poesia": "Traição é traição, romance é romance, amor é amor, e um lance é um lance",
-        "poeta": "Havaianos, Os"
+        "estrofe": "Traição é traição, romance é romance, amor é amor, e um lance é um lance",
+        "poesia": "É o pente",
+        "poeta": "Os Hawaianos"
     },
     {
-        "poesia": "Não é culpa dela se o dedo dela não curte aliança",
+        "estrofe": "Não é culpa dela se o dedo dela não curte aliança",
+        "poesia": "Amiga Parceira",
         "poeta": "Pikeno & Menor"
     },
     {
-        "poesia": "Não tem nada pra fazer e fica nessa agonia, fala de mim, pensa em mim 24hrs por dia",
+        "estrofe": "Não tem nada pra fazer e fica nessa agonia, fala de mim, pensa em mim 24hrs por dia",
+        "poesia": "24 Horas Por Dia",
         "poeta": "Ludmilla"
     }, 
     {
-        "poesia": "Sou cachorra sou gatinha não adianta se esquivar, vou soltar a minha fera, eu boto o bicho pra pegar",
-        "poeta": "Barraco, Tati Q."
+        "estrofe": "Sou cachorra sou gatinha não adianta se esquivar, vou soltar a minha fera, eu boto o bicho pra pegar",
+        "poesia": "Boladona",
+        "poeta": "Tati Quebra Barraco"
     }, 
     {
-        "poesia": "Me chama pra sair, olha que decepção, me leva pro cinema, pra assisti o Pokémon, se liga no papo reto que eu vo manda pra tu, eu quero é ir pro motel pra brinca com o Pikachu",
-        "poeta": "Barraco, Tati Q."
+        "estrofe": "Me chama pra sair, olha que decepção, me leva pro cinema, pra assisti o Pokémon, se liga no papo reto que eu vo manda pra tu, eu quero é ir pro motel pra brinca com o Pikachu",
+        "poesia": "Pikachu",
+        "poeta": "Tati Quebra Barraco"
     },
     {
-        "poesia": "Açúcar o caralho, mamãe me passou pimenta, O Mulher quero ver se tu aguenta",
+        "estrofe": "Açúcar o caralho, mamãe me passou pimenta, O Mulher quero ver se tu aguenta",
+        "poesia": "Pimenta",
         "poeta": "Biel"
     },
     {
-        "poesia": "Deu mole na reta os moleque passa o cerol",
-        "poeta" : "Jhey, MC"
+        "estrofe": "Deu mole na reta os moleque passa o cerol",
+        "poesia": "Predador de Perereca",
+        "poeta" : "Mc Jhey"
     },
     {
-        "poesia": "Ai que vontade de ir pra praia... Já passou",
-        "poeta": "Davi, MC"
+        "estrofe": "Ai que vontade de ir pra praia... Já passou",
+        "poesia": "O Verão Esta Chegando",
+        "poeta": "Mc Davi"
     },
     {
-        "poesia": "Posta foto no iate mas não posta foto com o velhote que é dono",
-        "poeta": "Laden, Bin"
+        "estrofe": "Posta foto no iate mas não posta foto com o velhote que é dono",
+        "poesia": "Famosinha do Instagram",
+        "poeta": "Mc Bin Laden"
     },
     {
-        "poesia": "Ta locona de minecraft?",
-        "poeta": "Laden, Bin"
+        "estrofe": "Ta locona de minecraft?",
+        "poesia": "Famosinha do Instagram",
+        "poeta": "Mc Bin Laden"
     },
     {
-        "poesia": "Gatinha assim você me assusta com o seu capô de fusca",
-        "poeta": "Catra, Mr"
+        "estrofe": "Gatinha assim você me assusta com o seu capô de fusca",
+        "poesia": "Capô de Fusca",
+        "poeta": "Mr Catra"
     },
     {
-        "poesia": "Tem bulbasaur, tem mewtwo mas todo mundo quer pegar o meu pikachu",
-        "poeta": "Troinha, MC"
+        "estrofe": "Tem bulbasaur, tem mewtwo mas todo mundo quer pegar o meu pikachu",
+        "poesia": "Pika Pika",
+        "poeta": "Mc Troinha & Rei da Cacimbinha"
     },
     {
-        "poesia": "Você sabe o que é Cuquete? Se tu num sabe o que é Cuquete eu vô te apresentá! Cuquete é boquete mais com o cú que você vai pagá!",
-        "poeta":"Catra, MC"
+        "estrofe": "Você sabe o que é Cuquete? Se tu num sabe o que é Cuquete eu vô te apresentá! Cuquete é boquete mais com o cú que você vai pagá!",
+        "poesia": "Cuquete",
+        "poeta":"Mc Catra"
     },
     {
-        "poesia": "A maconha te engorda use crack que é mais light",
-        "poeta":"Carol, MC"
+        "estrofe": "A maconha te engorda use crack que é mais light",
+        "poesia": "Tô Usando Crack",
+        "poeta":"Mc Carol"
     },
     {
-        "poesia": "Eu quero tu vá, vá tomar no cu",
-        "poeta":"Beats, Joker & Ananda"
+        "estrofe": "Eu quero tu vá, vá tomar no cu",
+        "poesia": "Quero Que Tu Vá",
+        "poeta":"Ananda & Joker Beats"
     },
     {
-        "poesia": "Na boca de quem não presta, quem é bom não vale nada",
-        "poeta": "Kapela, MC & VS, MC PP da"
+        "estrofe": "Na boca de quem não presta, quem é bom não vale nada",
+        "poesia": "Um Brinde Pra Nós",
+        "poeta": "Mc Kapela & MC PP da VS"
     },
     {
-        "poesia": "Alô Alô mulherada sem caô, vai começar a sarrada no popô",
-        "poeta": "Urubuzinho, MC"
+        "estrofe": "Alô Alô mulherada sem caô, vai começar a sarrada no popô",
+        "poesia": "Carga Nova",
+        "poeta": "Mc Urubuzinho"
+    },
+    {
+        "estrofe": "Tu já tomou no boga?",
+        "poesia": "Vou Catucar seu Boga",
+        "poeta": "Mc Digu e Mc Keron"
     }
-    
-    
 ]

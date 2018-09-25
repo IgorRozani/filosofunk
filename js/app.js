@@ -20,7 +20,8 @@ function randomNumber(totalelements) {
 
 // substituindo $.getJSON()
 var request = new XMLHttpRequest();
-request.open('GET', './poesias.json', true);
+//request.open('GET', './poesias.json', true); // Dev
+request.open('GET', 'https://github.com/IgorRozani/filosofunk/blob/master/poesias.json', true); // Prod
 request.onload = function () {
     if (request.status >= 200 && request.status < 400) {
 
@@ -53,11 +54,12 @@ request.onerror = function () {
 };
 
 function exibirPoesia(poesia) {
-    document.getElementById("poesia").innerText = '"' + poesia.poesia + '"';
+    document.getElementById("estrofe").innerText = '"' + poesia.estrofe + '"';
     document.getElementById("poeta").innerText = poesia.poeta;
+    document.getElementById("poesia").innerText = poesia.poesia;
 }
 
-
+//que coisa feia
 function declamar(event) {
     event.preventDefault();
     var ds = JSON.parse(localStorage.getItem("shuffle"));
