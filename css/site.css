@@ -66,8 +66,8 @@ p.poeta {
 }
 
 .facebook {
-    float: right;
-    padding-top: 110px;
+    width: 100%;
+    text-align: center;
 }
 
 .mascote {
