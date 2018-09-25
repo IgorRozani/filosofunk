@@ -22,13 +22,12 @@
 
 <body>
 	<div id="fb-root"></div>
-	<script>
-		(function(d, s, id) {
-	var js, fjs = d.getElementsByTagName(s)[0];
-	if (d.getElementById(id)) return;
-	js = d.createElement(s); js.id = id;
-	js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.8&appId=367632196919351";
-	fjs.parentNode.insertBefore(js, fjs);
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.1&appId=367632196919351&autoLogAppEvents=1';
+		fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
 
 	<a href="https://github.com/IgorRozani/filosofunk"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67"
@@ -47,10 +46,9 @@
 		<p class="poeta" id="poeta"></p>
 
 		<a href="" onclick="declamar(event)" class="button">Declamar outra poesia</a>
-
-		<div class="fb-like facebook" data-href="https://www.facebook.com/filosofunksite/" data-layout="button" data-action="like"
-			data-size="small" data-show-faces="true" data-share="true"></div>
 	</div>
+
+	<div class="fb-like" data-href="https://www.facebook.com/filosofunksite/" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
 </body>
 
 </html>
