@@ -1,11 +1,9 @@
 body {
-    min-width: 500px;
     background-color: #fff;
     background-image: linear-gradient(90deg, transparent 59px, rgb(240,70,79) 59px, rgb(240,70,79) 61px, transparent 61px), linear-gradient(#eee .1em, transparent .1em);
     background-size: 100% 1.2em;
     font-family: 'Dancing Script', Georgia, Times, serif;
 }
-/*#abced4*/
 
 header{
     text-align: center;
@@ -62,12 +60,17 @@ p.poeta {
     display: inline-block;
     font-size: 30px;
     padding-left: 80px;
-    padding-top: 100px;
 }
 
-.facebook {
+.share {
     width: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.share .item {
+    padding: 2px
 }
 
 .mascote {
@@ -75,5 +78,6 @@ p.poeta {
     position:absolute; 
     right:0;
     bottom:0;
-    height: 90%;
+    max-height: 60%;
+    max-width: 60%;
 }
