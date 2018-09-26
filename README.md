@@ -20,3 +20,6 @@ Os campos são os seguintes:
 - Estrofe: trecho da música
 - Poesia: nome da música
 - Poeta: nome do cantor(a) ou grupo. Caso seja mais de um cantor(a), utilizar o & entre os nomes. Exemplo: Pikeno & Menor
+
+# Agradecimentos
+Muito obrigado a ajuda de Astolfo, José Francisco e Vitor Hugo pelas milhares de ajudas off-line.
