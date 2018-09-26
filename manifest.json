@@ -1,0 +1,23 @@
+{
+    "short_name": "Filosofunk",
+    "name": "Filosofunk",
+    "icons": [
+      {
+        "src": "/img/mascote-og-48x48.png",
+        "type": "image/x-icon",
+        "sizes": "48x48"
+      },
+      {
+        "src": "/img/mascote-og-96x96.png",
+        "type": "image/x-icon",
+        "sizes": "96x96"
+      },
+      {
+        "src": "/img/mascote-og-192x192.png",
+        "type": "image/x-icon",
+        "sizes": "192x192"
+      }
+    ],
+    "start_url": "index.html?launcher=true",
+    "display": "standalone"
+  }
