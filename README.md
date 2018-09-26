@@ -11,8 +11,12 @@ As frases estão armazenadas no arquivo [poesias.json](https://github.com/IgorRo
 
 ```JSON
 {
-        "poesia": "sua frase", 
-        "poeta": "autor da frase"
+        "estrofe": "Um pente é pente",
+        "poesia": "É o pente",
+        "poeta": "Os Hawaianos"
 }
 ```
-Ao adicionar o nome do autor, escrever primeiro o último nome seguido de uma vírgula, o primeiro nome e os demais nomes abreviados. Exemplo: "Barraco, Tati Q.".
+Os campos são os seguintes:
+- Estrofe: trecho da música
+- Poesia: nome da música
+- Poeta: nome do cantor(a) ou grupo. Caso seja mais de um cantor(a), utilizar o & entre os nomes. Exemplo: Pikeno & Menor
