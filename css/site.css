@@ -63,6 +63,7 @@ p.poeta {
 }
 
 .share {
+    margin-top:20px;
     width: 100%;
     text-align: center;
     display: flex;
@@ -70,7 +71,7 @@ p.poeta {
 }
 
 .share .item {
-    padding: 2px
+    padding: 10px;
 }
 
 .mascote {
@@ -80,4 +81,5 @@ p.poeta {
     bottom:0;
     max-height: 60%;
     max-width: 60%;
+    z-index: -1;
 }
