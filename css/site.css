@@ -24,10 +24,6 @@ header h6{
     color:rgb(240,50,50);
 }
 
-container {
-    text-align: center;
-}
-
 blockquote {
     font-size: 59px;
     line-height: 60px;
@@ -36,6 +32,10 @@ blockquote {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 0px;
+}
+
+.container {
+    position: relative;
 }
 
 p.titulo {
@@ -75,5 +75,5 @@ p.poeta {
     position:absolute; 
     right:0;
     bottom:0;
-    height: 60%;
+    height: 90%;
 }

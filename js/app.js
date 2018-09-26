@@ -20,8 +20,7 @@ function randomNumber(totalelements) {
 
 // substituindo $.getJSON()
 var request = new XMLHttpRequest();
-//request.open('GET', './poesias.json', true); // Dev
-request.open('GET', 'https://github.com/IgorRozani/filosofunk/blob/master/poesias.json', true); // Prod
+request.open('GET', './poesias.json', true); // Dev
 request.onload = function () {
     if (request.status >= 200 && request.status < 400) {
 
