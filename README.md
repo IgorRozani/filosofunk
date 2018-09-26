@@ -21,7 +21,7 @@ Os campos são os seguintes:
 - Poesia: nome da música
 - Poeta: nome do cantor(a) ou grupo. Caso seja mais de um cantor(a), utilizar o & entre os nomes. Exemplo: Pikeno & Menor
 
-Além disto, adicionar no PR o link para o audio da música, pode ser youtube, soundcloud, spotify, etc.
+Além disto, adicionar no PR o link para o audio da música, de preferencia um link do youtube mas aceitamos outras plataformas como soundcloud e spotify.
 
 # Agradecimentos
 Muito obrigado pela ajuda de Astolfo, José Francisco, Vitor Hugo e aos contribuidores.
