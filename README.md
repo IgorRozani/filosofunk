@@ -1,12 +1,14 @@
 # Filosofunk [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 Lindas frases para aquecer os corações
 
-# O que é isto?
-Projeto das horas vagas feito sem auxílio de bibliotecas e frameworks, utilizando apenas Vanilla JS, HTML e CSS, com o intuito de juntar frases engraçadas, divertidas ou criativas de músicas de funk.
+![Screenshot](img/screenshot.PNG?raw=true "Screenshot")
 
 Para ver o projeto rodando: http://filosofunk.com.br/
 
-# Como sugerir novas frases?
+## O que é isto?
+Projeto feito nas horas vagas sem auxílio de bibliotecas e frameworks, utilizando apenas Vanilla JS, HTML e CSS, com o intuito de juntar frases engraçadas, divertidas, filosóficas ou criativas de músicas de funk.
+
+## Como sugerir novas frases?
 As frases estão armazenadas no arquivo [poesias.json](https://github.com/IgorRozani/filosofunk/blob/master/poesias.json), adicione as novas frases ao final do arquivo, utilizando a seguinte estrutura: 
 
 ```JSON
@@ -23,5 +25,8 @@ Os campos são os seguintes:
 
 Além disto, adicionar no PR o link para o audio da música, de preferencia um link do youtube mas aceitamos outras plataformas como soundcloud e spotify.
 
-# Agradecimentos
+## Como sugerir mudanças?
+O projeto possui apenas uma regra: não é permitido utilizar frameworks e/ou bibliotecas, apenas Vanilla JS.
+
+## Agradecimentos
 Muito obrigado pela ajuda de Astolfo, José Francisco, Vitor Hugo e aos contribuidores.
