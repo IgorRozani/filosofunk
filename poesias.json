@@ -210,8 +210,18 @@
         "poeta": "Dani Russo"
     },
     {
+        "estrofe": "Vai me enterrar na areia? Não, não, vou atolar.",
+        "poesia": "Atoladinha",
+        "poeta": "Bola de fogo"
+    },
+    {
         "estrofe": "A vida é tipo roda gigante, então pra quê esculhacho? Se hoje está em cima, amanhã tá embaixo.",
         "poesia": "A Vida É Tipo Roda Gigante",
         "poeta": "Mc Andrezinho Shock"
+    },
+    {
+        "estrofe": "Dei uma de maluco, prendi a respiração dei uma linguada estava cheio de sal",
+        "poesia": "Cheio de Sal",
+        "poeta": "MC Gorilla"
     }
 ]
