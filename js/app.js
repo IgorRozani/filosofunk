@@ -18,6 +18,36 @@ function randomNumber(totalelements) {
     return Math.floor(Math.random() * totalelements);
 }
 
+fetch('poesias.json').then(res => {
+    if (res.status === 200) {
+        return res.json();
+    }
+}).then(data => {
+    let storage = localStorage.getItem('shuffle');
+
+    if (!storage || !storage.length) {
+        let total = data.length;
+
+        let shuffle = data.map((t, index) => {
+            let key = randomNumber(total);
+
+            if (!data[key]) {
+                data[key] = index;
+                return data[key];
+            }
+        });
+
+        storage = shuffle;
+    }
+
+
+    localStorage.setItem('shuffle', storage);
+
+
+}).catch(error => {
+    console.error('Erro ao obter dados do Json');
+});
+
 // substituindo $.getJSON()
 var request = new XMLHttpRequest();
 request.open('GET', './poesias.json', true); // Dev
@@ -26,24 +56,24 @@ request.onload = function () {
 
         window.data = JSON.parse(request.responseText);
 
-        var ds = JSON.parse(localStorage.getItem("shuffle"));
+        //var ds = JSON.parse(localStorage.getItem("shuffle"));
 
-        if (!ds || !ds.length) {
-            var dataShufle = [];
-            var maxRandom = data.length;
+        // if (!ds || !ds.length) {
+        //     var dataShufle = [];
+        //     var maxRandom = data.length;
 
-            for (var i = 0; i < maxRandom;){
-                var key = randomNumber(data.length)
-                if (!dataShufle[key]) {
-                    dataShufle[key] = i;
-                    i++
-                }
-            }
-            ds = dataShufle;
-        }
+        //     for (var i = 0; i < maxRandom;) {
+        //         var key = randomNumber(data.length)
+        //         if (!dataShufle[key]) {
+        //             dataShufle[key] = i;
+        //             i++
+        //         }
+        //     }
+        //     //ds = dataShufle;
+        // }
 
-        exibirPoesia(data[ds.shift() || 0]);
-        localStorage.setItem("shuffle", JSON.stringify(ds));
+        //exibirPoesia(data[ds.shift() || 0]);
+        //localStorage.setItem("shuffle", JSON.stringify(ds));
     } else {
         console.log("Falha ao obter dados do Json");
     }
@@ -62,7 +92,7 @@ function exibirPoesia(poesia) {
 function declamar(event) {
     event.preventDefault();
     var ds = JSON.parse(localStorage.getItem("shuffle"));
-    if (!ds || !ds.length){
+    if (!ds || !ds.length) {
         window.location.reload();
     }
     exibirPoesia(data[ds.shift() || 0]);
