@@ -73,12 +73,12 @@
         "estrofe": "Não tem nada pra fazer e fica nessa agonia, fala de mim, pensa em mim 24hrs por dia",
         "poesia": "24 Horas Por Dia",
         "poeta": "Ludmilla"
-    }, 
+    },
     {
         "estrofe": "Sou cachorra sou gatinha não adianta se esquivar, vou soltar a minha fera, eu boto o bicho pra pegar",
         "poesia": "Boladona",
         "poeta": "Tati Quebra Barraco"
-    }, 
+    },
     {
         "estrofe": "Me chama pra sair, olha que decepção, me leva pro cinema, pra assisti o Pokémon, se liga no papo reto que eu vo manda pra tu, eu quero é ir pro motel pra brinca com o Pikachu",
         "poesia": "Pikachu",
@@ -253,5 +253,10 @@
         "estrofe": "Tô bonito, tô né? Quem mandou tu terminar?",
         "poesia": "Quem Mandou Tu Terminar",
         "poeta": "Mc Kekel"
-    }    
+    },
+    {
+        "estrofe": "No escuro da tua inveja, a minha luz é neon",
+        "poesia": "Paralisa",
+        "poeta": "Mc Loma & as Gêmeas Lacração"
+    }
 ]
