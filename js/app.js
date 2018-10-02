@@ -54,7 +54,17 @@ request.onerror = function() {
 };
 
 function showPoetry(poetry) {
-    document.getElementById("estrofe").innerText = '"' + poetry.estrofe + '"';
-    document.getElementById("poeta").innerText = poetry.poeta;
-    document.getElementById("poesia").innerText = poetry.poesia;
+  document.getElementById("estrofe").innerText = '"' + poetry.estrofe + '"';
+  document.getElementById("poeta").innerText = poetry.poeta;
+  document.getElementById("poesia").innerText = poetry.poesia;
+}
+
+function declamar(event) {
+  event.preventDefault();
+  var ds = JSON.parse(localStorage.getItem("shuffle"));
+  if (!ds || !ds.length){
+      window.location.reload();
+  }
+  exibirPoesia(data[ds.shift() || 0]);
+  localStorage.setItem("shuffle", JSON.stringify(ds));
 }
