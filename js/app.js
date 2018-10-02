@@ -11,46 +11,62 @@ function ready(fn) {
 ready(onReady);
 
 function onReady() {
-    request.send();
+    getPoetry();
+    declarePoetry();
 }
 
 function randomNumber(totalelements) {
     return Math.floor(Math.random() * totalelements);
 }
+function setStorage(data) {
+    localStorage.setItem('shuffle', JSON.stringify(data));
+}
+function getStorage() {
+    return JSON.parse(localStorage.getItem('shuffle'));
+}
 
-// substituindo $.getJSON()
-var request = new XMLHttpRequest();
-request.open('GET', './poesias.json', true); // Dev
-request.onload = function () {
-    if (request.status >= 200 && request.status < 400) {
+function getIndex(storageData) {
+    return storageData.shift() || 0;
+}
 
-        window.data = JSON.parse(request.responseText);
+let poetry; // global para ser usada no button :/
+function setPoetry(data) {
+    let storage = getStorage();
 
-        var ds = JSON.parse(localStorage.getItem("shuffle"));
+    poetry = data;
 
-        if (!ds || !ds.length) {
-            var dataShufle = [];
-            var maxRandom = data.length;
+    if (!storage || !storage.length) {
+        let total = data.length;
+        let shuffle = [];
 
-            for (var i = 0; i < maxRandom;){
-                var key = randomNumber(data.length)
-                if (!dataShufle[key]) {
-                    dataShufle[key] = i;
-                    i++
-                }
+        for (let i = 0; i < total;) {
+            let key = randomNumber(total);
+
+            if (!shuffle[key]) {
+                shuffle[key] = i;
+                i++;
             }
-            ds = dataShufle;
         }
 
-        exibirPoesia(data[ds.shift() || 0]);
-        localStorage.setItem("shuffle", JSON.stringify(ds));
-    } else {
-        console.log("Falha ao obter dados do Json");
+        storage = shuffle;
     }
-};
-request.onerror = function () {
-    console.log("Erro ao obter dados do Json");
-};
+
+    let index = getIndex(storage);
+    exibirPoesia(data[index]);
+    setStorage(storage);
+}
+
+async function getPoetry() {
+    try {
+        let response = await fetch('poesias.json');
+        if (response.status === 200) {
+            let data = await response.json();
+            setPoetry(data);
+        }
+    } catch (error) {
+        throw new Error(`Erro ao obter dados do JSON: ${error}`);
+    }
+}
 
 function exibirPoesia(poesia) {
     document.getElementById("estrofe").innerText = '"' + poesia.estrofe + '"';
@@ -58,13 +74,17 @@ function exibirPoesia(poesia) {
     document.getElementById("poesia").innerText = poesia.poesia;
 }
 
-//que coisa feia
-function declamar(event) {
-    event.preventDefault();
-    var ds = JSON.parse(localStorage.getItem("shuffle"));
-    if (!ds || !ds.length){
-        window.location.reload();
-    }
-    exibirPoesia(data[ds.shift() || 0]);
-    localStorage.setItem("shuffle", JSON.stringify(ds));
+function declarePoetry() {
+    document.querySelector('.declare-button').addEventListener('click', (evt) => {
+        evt.preventDefault();
+        let storage = getStorage();
+
+        if (!storage || !storage.length) {
+            window.location.reload();
+        };
+
+        let index = getIndex(storage);
+        exibirPoesia(poetry[index]);
+        setStorage(storage);
+    });
 }
