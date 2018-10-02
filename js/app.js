@@ -52,10 +52,21 @@ request.onerror = function () {
     console.log("Erro ao obter dados do Json");
 };
 
+/**
+ * Carrega o iframe com a música do youtube
+ * @param id - ID do vídeo no youtube
+ * @param start - Tempo de início do vídeo
+ */
+function carregarMusica(id, start) {
+    var src = 'https://www.youtube.com/embed/' + id + '?loop=1&autoplay=1&start=' + start;
+    document.getElementById("musica").src = src;
+}
+
 function exibirPoesia(poesia) {
     document.getElementById("estrofe").innerText = '"' + poesia.estrofe + '"';
     document.getElementById("poeta").innerText = poesia.poeta;
     document.getElementById("poesia").innerText = poesia.poesia;
+    carregarMusica('N4Q4j1oSdUU', 41);
 }
 
 //que coisa feia
