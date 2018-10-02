@@ -11,76 +11,50 @@ function ready(fn) {
 ready(onReady);
 
 function onReady() {
-    request.send();
+    getPoetry();
 }
 
 function randomNumber(totalelements) {
     return Math.floor(Math.random() * totalelements);
 }
 
-fetch('poesias.json').then(res => {
-    if (res.status === 200) {
-        return res.json();
-    }
-}).then(data => {
-    let storage = localStorage.getItem('shuffle');
+function setPoetry(data) {
+    let storage = JSON.parse(localStorage.getItem('shuffle'));
 
     if (!storage || !storage.length) {
         let total = data.length;
+        let shuffle = [];
 
-        let shuffle = data.map((t, index) => {
+        for (let i = 0; i < total;) {
             let key = randomNumber(total);
 
-            if (!data[key]) {
-                data[key] = index;
-                return data[key];
+            if (!shuffle[key]) {
+                shuffle[key] = i;
+                i++;
             }
-        });
+        }
 
         storage = shuffle;
     }
 
+    let index = storage.shift() || 0;
+    exibirPoesia(data[index]);
+    localStorage.setItem('shuffle', JSON.stringify(storage));
 
-    localStorage.setItem('shuffle', storage);
+}
 
+async function getPoetry() {
+    try {
+        let response = await fetch('poesias.json');
+        if (response.status === 200) {
+            let data = await response.json();
+            setPoetry(data);
+        }
 
-}).catch(error => {
-    console.error('Erro ao obter dados do Json');
-});
-
-// substituindo $.getJSON()
-var request = new XMLHttpRequest();
-request.open('GET', './poesias.json', true); // Dev
-request.onload = function () {
-    if (request.status >= 200 && request.status < 400) {
-
-        window.data = JSON.parse(request.responseText);
-
-        //var ds = JSON.parse(localStorage.getItem("shuffle"));
-
-        // if (!ds || !ds.length) {
-        //     var dataShufle = [];
-        //     var maxRandom = data.length;
-
-        //     for (var i = 0; i < maxRandom;) {
-        //         var key = randomNumber(data.length)
-        //         if (!dataShufle[key]) {
-        //             dataShufle[key] = i;
-        //             i++
-        //         }
-        //     }
-        //     //ds = dataShufle;
-        // }
-
-        //exibirPoesia(data[ds.shift() || 0]);
-        //localStorage.setItem("shuffle", JSON.stringify(ds));
-    } else {
-        console.log("Falha ao obter dados do Json");
+    } catch (error) {
+        throw new Error('Erro ao obter dados do JSON', error);
     }
-};
-request.onerror = function () {
-    console.log("Erro ao obter dados do Json");
-};
+}
 
 function exibirPoesia(poesia) {
     document.getElementById("estrofe").innerText = '"' + poesia.estrofe + '"';
