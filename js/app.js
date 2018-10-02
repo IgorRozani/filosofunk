@@ -65,6 +65,6 @@ function declamar(event) {
   if (!ds || !ds.length){
       window.location.reload();
   }
-  exibirPoesia(data[ds.shift() || 0]);
+  showPoetry(data[ds.shift() || 0]);
   localStorage.setItem("shuffle", JSON.stringify(ds));
 }
