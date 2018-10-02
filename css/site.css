@@ -13,13 +13,13 @@ header h1 {
     font-size: 50px;
     padding: 0px;
     margin: 0px;
-    color:rgb(240,50,50);
+    color:rgb(212, 59, 59);
 }
 
 header h6{
     font-size: 25px;
     margin-top: 0px;
-    color:rgb(240,50,50);
+    color:rgb(212, 59, 59);
 }
 
 blockquote {
@@ -52,7 +52,7 @@ p.poeta {
 .button {
     background-color: transparent;
     border: none;
-    color: rgb(70,81,206);
+    color: rgb(101, 112, 230);
     font-weight: bold;
     padding: 15px 32px;
     text-align: center;
@@ -72,6 +72,7 @@ p.poeta {
 
 .share .item {
     padding: 10px;
+    font-size: 3em;
 }
 
 .mascote {
