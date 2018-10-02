@@ -255,7 +255,7 @@
         "poeta": "Mc Kekel"
     },
     {
-      "estrofe": "Se teu hobby é sentar, não vou te criticar, tá de parabéns",
+        "estrofe": "Se teu hobby é sentar, não vou te criticar, tá de parabéns",
         "poesia": "Fazer Falta",
         "poeta": "Mc Livinho"
     },
@@ -283,5 +283,10 @@
         "estrofe": "Eu vou fazer uma serenata, só pra te ver dançar pelada",
         "poesia": "Rabetão",
         "poeta": "Mc Lan"
+    },
+    {
+        "estrofe": "No escuro da tua inveja, a minha luz é neon",
+        "poesia": "Paralisa",
+        "poeta": "Mc Loma & as Gêmeas Lacração & Mc WM"
     }
 ]
