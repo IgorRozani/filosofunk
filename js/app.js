@@ -12,14 +12,28 @@ ready(onReady);
 
 function onReady() {
     getPoetry();
+    declarePoetry();
 }
 
 function randomNumber(totalelements) {
     return Math.floor(Math.random() * totalelements);
 }
+function setStorage(data) {
+    localStorage.setItem('shuffle', JSON.stringify(data));
+}
+function getStorage() {
+    return JSON.parse(localStorage.getItem('shuffle'));
+}
 
+function getIndex(storageData) {
+    return storageData.shift() || 0;
+}
+
+let poetry; // global para ser usada no button :/
 function setPoetry(data) {
-    let storage = JSON.parse(localStorage.getItem('shuffle'));
+    let storage = getStorage();
+
+    poetry = data;
 
     if (!storage || !storage.length) {
         let total = data.length;
@@ -37,10 +51,9 @@ function setPoetry(data) {
         storage = shuffle;
     }
 
-    let index = storage.shift() || 0;
+    let index = getIndex(storage);
     exibirPoesia(data[index]);
-    localStorage.setItem('shuffle', JSON.stringify(storage));
-
+    setStorage(storage);
 }
 
 async function getPoetry() {
@@ -50,9 +63,8 @@ async function getPoetry() {
             let data = await response.json();
             setPoetry(data);
         }
-
     } catch (error) {
-        throw new Error('Erro ao obter dados do JSON', error);
+        throw new Error(`Erro ao obter dados do JSON: ${error}`);
     }
 }
 
@@ -62,13 +74,17 @@ function exibirPoesia(poesia) {
     document.getElementById("poesia").innerText = poesia.poesia;
 }
 
-//que coisa feia
-function declamar(event) {
-    event.preventDefault();
-    var ds = JSON.parse(localStorage.getItem("shuffle"));
-    if (!ds || !ds.length) {
-        window.location.reload();
-    }
-    exibirPoesia(data[ds.shift() || 0]);
-    localStorage.setItem("shuffle", JSON.stringify(ds));
+function declarePoetry() {
+    document.querySelector('.declare-button').addEventListener('click', (evt) => {
+        evt.preventDefault();
+        let storage = getStorage();
+
+        if (!storage || !storage.length) {
+            window.location.reload();
+        };
+
+        let index = getIndex(storage);
+        exibirPoesia(poetry[index]);
+        setStorage(storage);
+    });
 }
