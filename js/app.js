@@ -66,7 +66,7 @@ function exibirPoesia(poesia) {
     document.getElementById("estrofe").innerText = '"' + poesia.estrofe + '"';
     document.getElementById("poeta").innerText = poesia.poeta;
     document.getElementById("poesia").innerText = poesia.poesia;
-    carregarMusica('N4Q4j1oSdUU', 41);
+    carregarMusica(poesia.id, poesia.start);
 }
 
 //que coisa feia
