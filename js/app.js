@@ -1,7 +1,7 @@
 // Replacing $(document).ready()
 function ready(fn) {
     if (document.readyState != 'loading') {
-        onReady();
+        fn();
     } else {
         document.addEventListener('DOMContentLoaded', fn);
     }
