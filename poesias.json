@@ -73,12 +73,12 @@
         "estrofe": "Não tem nada pra fazer e fica nessa agonia, fala de mim, pensa em mim 24hrs por dia",
         "poesia": "24 Horas Por Dia",
         "poeta": "Ludmilla"
-    }, 
+    },
     {
         "estrofe": "Sou cachorra sou gatinha não adianta se esquivar, vou soltar a minha fera, eu boto o bicho pra pegar",
         "poesia": "Boladona",
         "poeta": "Tati Quebra Barraco"
-    }, 
+    },
     {
         "estrofe": "Me chama pra sair, olha que decepção, me leva pro cinema, pra assisti o Pokémon, se liga no papo reto que eu vo manda pra tu, eu quero é ir pro motel pra brinca com o Pikachu",
         "poesia": "Pikachu",
@@ -205,7 +205,7 @@
         "poeta": "Mr. Catra"
     },
     {
-      "estrofe": "A pista já tava com muita saudade de mim! Ó quem voltou pra sacanagm.",
+        "estrofe": "A pista já tava com muita saudade de mim! Ó quem voltou pra sacanagm.",
         "poesia": "Oh Quem Voltou",
         "poeta": "Dani Russo"
     },
@@ -254,9 +254,54 @@
         "poesia": "Quem Mandou Tu Terminar",
         "poeta": "Mc Kekel"
     },
-		{
+    {
+        "estrofe": "Se teu hobby é sentar, não vou te criticar, tá de parabéns",
+        "poesia": "Fazer Falta",
+        "poeta": "Mc Livinho"
+    },
+    {
+        "estrofe": "Quando a gente ama não vemos defeito, ela é a dona do meu cora... Porra nenhuma eu quero é putaria",
+        "poesia": "Catra",
+        "poeta": "Uh Papai Chegou"
+    },
+    {
+        "estrofe": "I love you too cu, então senta no piru",
+        "poesia": "Open The Tcheka",
+        "poeta": "MC Lan"
+    },
+    {
+        "estrofe": "Raidenosfri garurreim garulol, Pantianaru lololololololol",
+        "poesia": "Pica Né?",
+        "poeta": "Mc Biriri"
+    },
+    {
+        "estrofe": "Quer andar de meiota, senta na minha piroca",
+        "poesia": "Meiota",
+        "poeta": "Mc Kekel"
+    },
+    {
+        "estrofe": "Eu vou fazer uma serenata, só pra te ver dançar pelada",
+        "poesia": "Rabetão",
+        "poeta": "Mc Lan"
+    },
+    {
+        "estrofe": "No escuro da tua inveja, a minha luz é neon",
+        "poesia": "Paralisa",
+        "poeta": "Mc Loma & as Gêmeas Lacração & Mc WM"
+    },
+    {
+        "estrofe": "Deixa esse teu rancor de lado. E vem aqui me dar um beijo, matar meu desejo.",
+        "poesia": "Você Não Colabora",
+        "poeta": "Mc Rodrigo do CN"
+    },
+    {
+        "estrofe": "Diretamente de Hogwarts, Wingardium Levirola.",
+        "poesia": "Harry Porra e a Bruxinha Rabuda",
+        "poeta": "MC Maha"
+    },
+    {
 				"estrofe": "Quem nasceu pra ser cu nunca vai ser pica",
 				"poesia": "Os Caras do Momento",
-				"poeta": "MC Nego do Borel"
+				"poeta": "Mc Nego do Borel"
 		}
 ]
