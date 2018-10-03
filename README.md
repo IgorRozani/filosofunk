@@ -31,4 +31,4 @@ Os campos são os seguintes:
 O projeto possui apenas uma regra: não é permitido utilizar frameworks e/ou bibliotecas, apenas Vanilla JS.
 
 ## Agradecimentos
-Muito obrigado pela ajuda de Astolfo, José Francisco, Vitor Hugo, Giancarlo Rocha e aos contribuidores.
+Muito obrigado pela ajuda de [Astolfo](https://github.com/Astolfoho), [José Francisco](https://github.com/jfobaltazar), [Vitor Hugo](https://github.com/vitorlans), [Giancarlo Rocha](https://github.com/giancarlopro) e aos contribuidores.
