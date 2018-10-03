@@ -86,9 +86,13 @@ p.help-us {
     padding: 10px;
 }
 
+.share .item a {
+  font-size: 0;
+}
+
 .mascote {
     opacity:0.2;
-    position:absolute; 
+    position:absolute;
     right:0;
     bottom:0;
     max-height: 60%;
