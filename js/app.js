@@ -99,3 +99,19 @@ function declarePoetry() {
         setStorage(storage);
     });
 }
+
+function pauseYoutube() {
+   document.getElementById('musica').src = '';
+   document.getElementById('btn-pause').disabled = true;
+   document.getElementById('btn-play').disabled = false;
+}
+
+function playYoutube(id, start) {
+  let storage = getStorage(); 
+  let index = getIndex(storage);  
+  let poesia = poetry[index];
+  this.carregarMusica(poesia.id, poesia.start);
+  this.exibirPoesia(poesia);
+  document.getElementById('btn-pause').disabled = false;
+  document.getElementById('btn-play').disabled = true;
+}
