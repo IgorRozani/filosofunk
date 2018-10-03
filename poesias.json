@@ -2,256 +2,449 @@
     {
         "estrofe": "Foca mas não sufoca",
         "poesia": "Ta Tranquilo Ta Favorável",
-        "poeta": "Mc Bin Laden"
+        "poeta": "Mc Bin Laden",
+        "id": "vkJ5Lc0WwVw",
+        "start": 21
     },
     {
         "estrofe": "Você é tipo pantufa, em casa é gostosinha mas fora passo vergonha",
         "poesia": "Pensando em você",
-        "poeta": "Edy Lemond"
+        "poeta": "Edy Lemond",
+        "id": "nqusF20OpLc",
+        "start": 7
     },
     {
         "estrofe": "Nois é bom mas não é bombom",
-        "poesia": "Ta Tranquilo Ta Favorável",
-        "poeta": "Mc Bin Laden"
+        "poesia": "Bololo Haha",
+        "poeta": "Mc Bin Laden",
+        "id": "dwEm-rU5sAE",
+        "start": 12
     },
     {
         "estrofe": "Ta locona de pão de queijo?",
         "poesia": "Aham, Pode Pá",
-        "poeta": "Mc Bin Laden"
+        "poeta": "Mc Bin Laden",
+        "id": "b5xpz2EyKkY",
+        "start": 31
     },
     {
-        "estrofe": "Quem é o teu homem? Vamo no cartório pra passa teu cu pro meu nome",
+        "estrofe": "Quem é o teu homem? Vamo no cartório pra te passa pro meu nome",
         "poesia": "Quem é o teu Homem",
-        "poeta": "Mc Maromba"
-    },
-    {
-        "estrofe": "Toda obra prima tem a sua materia prima",
-        "poesia": "Quer Ficar Grandão",
-        "poeta": "B-Dynamitze"
+        "poeta": "Mc Maromba",
+        "id": "CpKLRxtFzmI",
+        "start": 62
     },
     {
         "estrofe": "Quando a piroca tem dona é que vem a vontade de fuder",
         "poesia": "Mama",
-        "poeta": "Valesca Popozuda & Mr Catra"
+        "poeta": "Valesca Popozuda & Mr. Catra",
+        "id": "5L6TejdJXCc",
+        "start": 36
     },
     {
         "estrofe": "Late mais alto que daqui eu não te escuto",
         "poesia": "Beijinho no Ombro",
-        "poeta": "Valesca Popozuda"
+        "poeta": "Valesca Popozuda",
+        "id": "73sbW7gjBeo",
+        "start": 104
     },
     {
         "estrofe": "Desejo a todas inimigas vida longa, para que elas vejam a cada dia nossa vitória",
         "poesia": "Beijinho no Ombro",
-        "poeta": "Valesca Popozuda"
+        "poeta": "Valesca Popozuda",
+        "id": "73sbW7gjBeo",
+        "start": 86
     },
     {
         "estrofe": "Todas que provaram, não conseguem esquecer.",
         "poesia": "Sou Foda",
-        "poeta": "Avassaladores"
+        "poeta": "Avassaladores",
+        "id": "RIBkK5X_3mo",
+        "start": 48
     },
     {
         "estrofe": "Eu sou sinistro, melhor que seu marido, esculacho seu amigo, no escuro eu sou um perigo.",
         "poesia": "Sou Foda",
-        "poeta": "Avassaladores"
+        "poeta": "Avassaladores",
+        "id": "RIBkK5X_3mo",
+        "start": 20
     },
     {
         "estrofe": "Um pente é pente",
         "poesia": "É o pente",
-        "poeta": "Os Hawaianos"
+        "poeta": "Os Hawaianos",
+        "id": "dEh3dJORNU4",
+        "start": 36
     },
     {
         "estrofe": "Traição é traição, romance é romance, amor é amor, e um lance é um lance",
         "poesia": "É o pente",
-        "poeta": "Os Hawaianos"
+        "poeta": "Os Hawaianos",
+        "id": "dEh3dJORNU4",
+        "start": 50
     },
     {
         "estrofe": "Não é culpa dela se o dedo dela não curte aliança",
         "poesia": "Amiga Parceira",
-        "poeta": "Pikeno & Menor"
+        "poeta": "Pikeno & Menor",
+        "id": "cDIm2IHyG08",
+        "start": 70
     },
     {
         "estrofe": "Não tem nada pra fazer e fica nessa agonia, fala de mim, pensa em mim 24hrs por dia",
         "poesia": "24 Horas Por Dia",
-        "poeta": "Ludmilla"
-    }, 
+        "poeta": "Ludmilla",
+        "id": "3JCcTo5psps",
+        "start": 17
+    },
     {
         "estrofe": "Sou cachorra sou gatinha não adianta se esquivar, vou soltar a minha fera, eu boto o bicho pra pegar",
         "poesia": "Boladona",
-        "poeta": "Tati Quebra Barraco"
-    }, 
+        "poeta": "Tati Quebra Barraco",
+        "id": "USO_Dfu-6Yg",
+        "start": 28
+    },
     {
         "estrofe": "Me chama pra sair, olha que decepção, me leva pro cinema, pra assisti o Pokémon, se liga no papo reto que eu vo manda pra tu, eu quero é ir pro motel pra brinca com o Pikachu",
         "poesia": "Pikachu",
-        "poeta": "Tati Quebra Barraco"
+        "poeta": "Vanessinha Pikachu",
+        "id": "wz0ilai77-Q",
+        "start": 11
     },
     {
         "estrofe": "Açúcar o caralho, mamãe me passou pimenta, O Mulher quero ver se tu aguenta",
         "poesia": "Pimenta",
-        "poeta": "Biel"
+        "poeta": "Biel",
+        "id": "9AcATCPTzcA",
+        "start": 33
     },
     {
         "estrofe": "Deu mole na reta os moleque passa o cerol",
-        "poesia": "Predador de Perereca",
-        "poeta" : "Mc Jhey"
+        "poesia": "Pitbull",
+        "poeta": "Mc Jhey",
+        "id": "69vdVMHng2E",
+        "start": 24
     },
     {
         "estrofe": "Ai que vontade de ir pra praia... Já passou",
         "poesia": "O Verão Esta Chegando",
-        "poeta": "Mc Davi"
+        "poeta": "Mc Davi",
+        "id": "aio4Bc7ziXU",
+        "start": 4
     },
     {
         "estrofe": "Posta foto no iate mas não posta foto com o velhote que é dono",
         "poesia": "Famosinha do Instagram",
-        "poeta": "Mc Bin Laden"
+        "poeta": "Mc Bin Laden",
+        "id": "PZf1F1Euz98",
+        "start": 39
     },
     {
         "estrofe": "Ta locona de minecraft?",
         "poesia": "Famosinha do Instagram",
-        "poeta": "Mc Bin Laden"
+        "poeta": "Mc Bin Laden",
+        "id": "PZf1F1Euz98",
+        "start": 50
     },
     {
         "estrofe": "Gatinha assim você me assusta com o seu capô de fusca",
         "poesia": "Capô de Fusca",
-        "poeta": "Mr Catra"
+        "poeta": "Mr. Catra",
+        "id": "JUSegDdVPqg",
+        "start": 0
     },
     {
         "estrofe": "Tem bulbasaur, tem mewtwo mas todo mundo quer pegar o meu pikachu",
         "poesia": "Pika Pika",
-        "poeta": "Mc Troinha & Rei da Cacimbinha"
+        "poeta": "Mc Troinha & Rei da Cacimbinha",
+        "id": "AHmIHb5shMw",
+        "start": 56
     },
     {
         "estrofe": "Você sabe o que é Cuquete? Se tu num sabe o que é Cuquete eu vô te apresentá! Cuquete é boquete mais com o cú que você vai pagá!",
         "poesia": "Cuquete",
-        "poeta":"Mc Catra"
+        "poeta": "Mr. Catra",
+        "id": "A_vLheLOKvc",
+        "start": 30
     },
     {
         "estrofe": "A maconha te engorda use crack que é mais light",
         "poesia": "Tô Usando Crack",
-        "poeta":"Mc Carol"
+        "poeta": "Mc Carol",
+        "id": "x4Ds3zrz748",
+        "start": 32
     },
     {
         "estrofe": "Eu quero tu vá, vá tomar no cu",
         "poesia": "Quero Que Tu Vá",
-        "poeta":"Ananda & Joker Beats"
+        "poeta": "Ananda & Joker Beats",
+        "id": "w_ejwSACf_U",
+        "start": 36
     },
     {
         "estrofe": "Na boca de quem não presta, quem é bom não vale nada",
         "poesia": "Um Brinde Pra Nós",
-        "poeta": "Mc Kapela & MC PP da VS"
+        "poeta": "Mc Kapela & Mc PP da VS",
+        "id": "4ZZ1ivN2TA4",
+        "start": 25
     },
     {
         "estrofe": "Alô Alô mulherada sem caô, vai começar a sarrada no popô",
         "poesia": "Carga Nova",
-        "poeta": "Mc Urubuzinho"
+        "poeta": "Mc Urubuzinho",
+        "id": "rJOA7WyRRv8",
+        "start": 2
     },
     {
         "estrofe": "Tu já tomou no boga?",
         "poesia": "Vou Catucar seu Boga",
-        "poeta": "Mc Digu e Mc Keron"
+        "poeta": "Mc Digu & Mc Keron",
+        "id": "skNCJdLd01U",
+        "start": 11
     },
     {
         "estrofe": "meu pipi começou a chorar, Disse que com teus lábios adorou dialogar",
         "poesia": "Na Ponta do Pé",
-        "poeta": "Mc Livinho"
+        "poeta": "Mc Livinho",
+        "id": "dj19l8u7kv4",
+        "start": 25
     },
     {
         "estrofe": "Hoje eu quero fuder, No instinto animal, Vou jogar minha buceta, Contraindo no teu pau",
         "poesia": "Brota na Base",
-        "poeta": "Mc Cachorrera"
+        "poeta": "Mc Cachorrera",
+        "id": "ZbZzLTvAw1g",
+        "start": 66
     },
     {
         "estrofe": "Quando é pra fuder essa mina pula até muro",
         "poesia": "Pula Muro",
-        "poeta": "Mc Magrinho"
+        "poeta": "Mc Magrinho",
+        "id": "0cCvTJs53tg",
+        "start": 17
     },
     {
         "estrofe": "Escama só de peixe",
         "poesia": "Envolvimento",
-        "poeta": "Mc Loma & as Gêmeas Lacração"
+        "poeta": "Mc Loma & as Gêmeas Lacração",
+        "id": "lgJOJAmXlBw",
+        "start": 89
     },
     {
         "estrofe": "Amor, a culpa não é minha. Amor, é das tuas amiguinhas. Eu tava ligado e cansei de te avisar: amiga é o caralho, todas querem me dar",
         "poesia": "A Culpa Não É Minha",
-        "poeta": "Mc Dino"
+        "poeta": "Mc Dino",
+        "id": "8YfRm1ZpgHM",
+        "start": 12
     },
     {
         "estrofe": "Se eu tiver solteiro não vou perdoar ninguém, Suas amiga putiane eu vou comer também",
         "poesia": "Se Eu Tiver Solteiro",
-        "poeta": "Mc Don Juan"
+        "poeta": "Mc Don Juan",
+        "id": "e5_xENXFEhE",
+        "start": 34
     },
     {
         "estrofe": "Com a irmã do parça, Vem, que lá na casa dele, É motel de graça",
-        "poesia": "Se Eu Tiver Solteiro",
-        "poeta": "Mc Livinho & Mc Davi"
+        "poesia": "Irmã Gostosa",
+        "poeta": "Mc Livinho & Mc Davi",
+        "id": "RqmM2KLpAX8",
+        "start": 20
     },
     {
         "estrofe": "Pra muitos o mundo é grande, mas minha missão é maior que o mundo",
-        "poesia": "Malandrão",
-        "poeta": "MC Brinquedo"
+        "poesia": "Bonde dos Malandrão",
+        "poeta": "Mc Brinquedo & Mc Nego Blue",
+        "id": "tBmIVHOGBIM",
+        "start": 18
     },
     {
         "estrofe": "Uma garrafa é pouco Jack ou Buchanan's tanto faz. Whisky com gelo de coco sempre deixando os problemas pra trás.",
         "poesia": "Esse Mlk Tá Um Nojo",
-        "poeta": "Mc Léo da Baixada"
+        "poeta": "Mc Léo da Baixada",
+        "id": "oZpWVwpRS9g",
+        "start": 14
     },
     {
         "estrofe": "Vai começar a putaria",
         "poesia": "Vai começar a putaria",
-        "poeta": "Mr. Catra"
+        "poeta": "Mr. Catra",
+        "id": "MONXkMLEfjI",
+        "start": 5
     },
     {
         "estrofe": "Uh papai chegou . uh uh papai chegou Uh papai chegou . uh uh papai chegou",
         "poesia": "Uh Papai Chegou",
-        "poeta": "Mr. Catra"
+        "poeta": "Mr. Catra",
+        "id": "CzUn5QckZQE",
+        "start": 34
     },
     {
-      "estrofe": "A pista já tava com muita saudade de mim! Ó quem voltou pra sacanagm.",
+        "estrofe": "A pista já tava com muita saudade de mim! Ó quem voltou pra sacanagm.",
         "poesia": "Oh Quem Voltou",
-        "poeta": "Dani Russo"
+        "poeta": "Dani Russo & Mc Pocahontas & Naiara Azevedo",
+        "id": "jjdTRQ_CiFA",
+        "start": 11
     },
     {
         "estrofe": "Vai me enterrar na areia? Não, não, vou atolar.",
         "poesia": "Atoladinha",
-        "poeta": "Bola de fogo"
+        "poeta": "Bola de fogo",
+        "id": "Nk6r9EmePxs",
+        "start": 49
     },
     {
         "estrofe": "A vida é tipo roda gigante, então pra quê esculhacho? Se hoje está em cima, amanhã tá embaixo.",
         "poesia": "A Vida É Tipo Roda Gigante",
-        "poeta": "Mc Andrezinho Shock"
+        "poeta": "Mc Andrezinho Shock",
+        "id": "D5FZs3OJzR0",
+        "start": 93
     },
     {
         "estrofe": "Dei uma de maluco, prendi a respiração dei uma linguada estava cheio de sal",
         "poesia": "Cheio de Sal",
-        "poeta": "MC Gorilla"
+        "poeta": "Mc Gorilla",
+        "id": "N4Q4j1oSdUU",
+        "start": 41
     },
     {
         "estrofe": "A novinha não me quer, só porque eu vim da roça",
         "poesia": "Roça Roça",
-        "poeta": "Mc Brinquedo"
+        "poeta": "Mc Brinquedo",
+        "id": "z-EIyVPSlf8",
+        "start": 29
     },
     {
         "estrofe": "Dom Dom Dom, Dom Dom Dom, a novinha experiente já nasceu com esse dom",
-        "poesia": "A Novinha Experiente ja Nasceu Com esse Dom",
-        "poeta": "Mc Magrinho & Mc Pedrinho"
+        "poesia": "Dom Dom Dom",
+        "poeta": "Mc Pedrinho",
+        "id": "EE0Zcs0yBoQ",
+        "start": 25
     },
     {
         "estrofe": "Avara Ké-raba, arrasta a tabaca na vara vai sentando na vassoura, eita bruxinha rabuda, eita rabeta que voa",
         "poesia": "Harry Porra e a Bruxinha Rabuda",
-        "poeta": "Mc Maha"
+        "poeta": "Mc Maha",
+        "id": "g60eBKA2YcE",
+        "start": 30
     },
     {
         "estrofe": "Namorar pra quê? Se amarrar pra quê? Prefiro tá solteiro que eu sei que elas vão querer.",
         "poesia": "Namorar Pra Quê?",
-        "poeta": "Mc Kekeu"
+        "poeta": "Mc Kekeu",
+        "id": "byXfKMEmVZc",
+        "start": 55
     },
     {
         "estrofe": "É a flauta envolvente, que mexe com a mente, de quem tá presente",
         "poesia": "Bum Bum Tam Tam",
-        "poeta": "Mc Fioti"
+        "poeta": "Mc Fioti",
+        "id": "_P7S2lKif-A",
+        "start": 17
     },
     {
         "estrofe": "Tô bonito, tô né? Quem mandou tu terminar?",
         "poesia": "Quem Mandou Tu Terminar",
-        "poeta": "Mc Kekel"
-    }    
+        "poeta": "Mc Kekel",
+        "id": "NgK9fe45bJA",
+        "start": 60
+    },
+    {
+        "estrofe": "Se teu hobby é sentar, não vou te criticar, tá de parabéns",
+        "poesia": "Fazer Falta",
+        "poeta": "Mc Livinho",
+        "id": "b9jo4mk0VQU",
+        "start": 29
+    },
+    {
+        "estrofe": "Quando a gente ama não vemos defeito, ela é a dona do meu cora... Porra nenhuma eu quero é putaria",
+        "poesia": "Uh Papai Chegou",
+        "poeta": "Mr. Catra",
+        "id": "CzUn5QckZQE",
+        "start": 121
+    },
+    {
+        "estrofe": "I love you too cu, então senta no piru",
+        "poesia": "Open The Tcheka",
+        "poeta": "Mc Lan",
+        "id": "OQNFJKMH8bo",
+        "start": 49
+    },
+    {
+        "estrofe": "Raidenosfri garurreim garulol, Pantianaru lololololololol",
+        "poesia": "Pica Né?",
+        "poeta": "Mc Biriri",
+        "id": "MiEt2maqCU0",
+        "start": 10
+    },
+    {
+        "estrofe": "Quer andar de meiota, senta na minha piroca",
+        "poesia": "Meiota",
+        "poeta": "Mc Kekel",
+        "id": "AXGz_xYIsFA",
+        "start": 22
+    },
+    {
+        "estrofe": "Eu vou fazer uma serenata, só pra te ver dançar pelada",
+        "poesia": "Rabetão",
+        "poeta": "Mc Lan",
+        "id": "RymhzC238YI",
+        "start": 52
+    },
+    {
+        "estrofe": "No escuro da tua inveja, a minha luz é neon",
+        "poesia": "Paralisa",
+        "poeta": "Mc Loma & as Gêmeas Lacração & Mc WM",
+        "id": "N7k1WTOVYuA",
+        "start": 74
+    },
+    {
+        "estrofe": "Deixa esse teu rancor de lado. E vem aqui me dar um beijo, matar meu desejo.",
+        "poesia": "Você Não Colabora",
+        "poeta": "Mc Rodrigo do CN",
+        "id": "bdS2GeV6aR8",
+        "start": 0
+    },
+    {
+        "estrofe": "Diretamente de Hogwarts, Wingardium Levirola.",
+        "poesia": "Harry Porra e a Bruxinha Rabuda",
+        "poeta": "Mc Maha",
+        "id": "g60eBKA2YcE",
+        "start": 0
+    },
+    {
+        "estrofe": "Quem nasceu pra ser cu nunca vai ser pica",
+        "poesia": "Os Caras do Momento",
+        "poeta": "Mc Nego do Borel",
+        "id": "NgB6N5_Jw4w",
+        "start": 82
+    },
+    {
+        "estrofe": "Perereca suicida, se joga na pica, se mata na pica",
+        "poesia": "Perereca suicida",
+        "poeta": "Mc Japa",
+        "id": "mwcg0UJa_mw",
+        "start": 39
+    },
+    {
+        "estrofe": "Tira logo o fio dental porque seu boga não tem dente",
+        "poesia": "Seu boga não tem dente",
+        "poeta": "Mc Digu & Mc Keron",
+        "id": "7h6LuuvUC2Q",
+        "start": 59
+    },
+    {
+        "estrofe": "Sarra na pica, ai na menina, vou te tacar o piru. Te ponho o pipi de um jeito sensual...",
+        "poesia": "Picada fatal",
+        "poeta": "MC Livinho",
+        "id": "FzKzCAMoWrU",
+        "start": 4
+    },
+    {
+        "estrofe": "Essa é a minha vida, cheirar pó e queimar pedra, Trepar com o traveco e depois fumar minha erva.",
+        "poesia": "Bonde Da Orgia De Travecos",
+        "poeta": "U.D.R",
+        "id": "gjrv2k-fhDA",
+        "start": 24
+    }
 ]

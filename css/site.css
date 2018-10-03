@@ -32,6 +32,15 @@ blockquote {
     margin-bottom: 0px;
 }
 
+a {
+    color: rgb(70,81,206);
+    text-decoration: none;
+}
+
+.audio {
+    display: none;
+}
+
 .container {
     position: relative;
 }
@@ -49,14 +58,17 @@ p.poeta {
     text-align: right;
 }
 
+p.help-us {
+    text-align: center;
+    font-size: 25px;
+}
+
 .button {
     background-color: transparent;
     border: none;
-    color: rgb(70,81,206);
     font-weight: bold;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 30px;
     padding-left: 80px;

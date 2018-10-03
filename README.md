@@ -15,18 +15,20 @@ As frases estão armazenadas no arquivo [poesias.json](https://github.com/IgorRo
 {
         "estrofe": "Um pente é pente",
         "poesia": "É o pente",
-        "poeta": "Os Hawaianos"
+        "poeta": "Os Hawaianos",
+        "id": "dEh3dJORNU4",
+        "start": "36"
 }
 ```
 Os campos são os seguintes:
 - Estrofe: trecho da música
 - Poesia: nome da música
 - Poeta: nome do cantor(a) ou grupo. Caso seja mais de um cantor(a), utilizar o & entre os nomes. Exemplo: Pikeno & Menor
-
-Além disto, adicionar no PR o link para o audio da música, de preferencia um link do youtube mas aceitamos outras plataformas como soundcloud e spotify.
+- id: id do vídeo no youtube
+- start: tempo do vídeo que ocorre pela primeira vez o trecho
 
 ## Como sugerir mudanças?
 O projeto possui apenas uma regra: não é permitido utilizar frameworks e/ou bibliotecas, apenas Vanilla JS.
 
 ## Agradecimentos
-Muito obrigado pela ajuda de Astolfo, José Francisco, Vitor Hugo e aos contribuidores.
+Muito obrigado pela ajuda de Astolfo, José Francisco, Vitor Hugo, Giancarlo Rocha e aos contribuidores.

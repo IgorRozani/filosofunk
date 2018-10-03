@@ -51,23 +51,22 @@
 	}(document, 'script', 'facebook-jssdk'));</script>
 	<!-- End Facebook buttons-->
 
-	<!-- Fork me ribbon -->
-	<a href="https://github.com/IgorRozani/filosofunk"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67"
-			alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"></a>
-
 	<header>
 		<h1>Filosofunk</h1>
 		<h6>Lindas frases para aquecer os corações</h6>
 	</header>
-
+	
+	<iframe class="audio" width="0" height="0" id="musica" src="" frameborder="0" allow="autoplay; encrypted-media" ></iframe>
+	
 	<div class="container">
 		<p class="titulo">Trecho de "<span id="poesia"></span>"</p>
 		<blockquote id="estrofe"></blockquote>
 		<p class="poeta" id="poeta"></p>
 
-		<a href="" onclick="declamar(event)" class="button">Declamar outra poesia</a>
+		<a href="#" class="declare-button button">Declamar outra poesia</a>
+		
+		<div class="share">
 
-		<div class="share" id="share-buttons">
 			<div class="fb-like item" data-href="https://www.facebook.com/filosofunksite/" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="false"></div>
 
 			<div class="fb-share-button item" data-href="http://filosofunk.com.br" data-layout="button" data-size="large" data-mobile-iframe="true">
@@ -83,6 +82,8 @@
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 			</div>
 		</div>
+
+		<p class="help-us">Conhece alguma frase que não está aqui? <a href="https://github.com/IgorRozani/filosofunk" target="_blank">Envie sua frase em nosso GitHub.</a></p>
 		<img src="./img/mascote.png" class="mascote">
 	</div>
 </body>
