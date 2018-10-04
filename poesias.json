@@ -471,24 +471,22 @@
     { 
        "estrofe": "Cheiro de lança do bom, Ei tu ta na gaiola, Cheiro de maconha boa, Ei tu ta na gaiola",
        "poesia": "Cheiro de maconha boa",
-       "poeta" : "MC Kevin O Chris",
+       "poeta" : "Mc Kevin O Chris",
        "id": "EVZmfGPwJqo",
        "start" : "6" 
-    }
-    
+    },
     {
-        "estrofe": "Esconde o Celular que o coração nós já roubou",
+        "estrofe": "Esconde o celular que o coração nós já roubei",
         "poesia": "Esconde o celular que o coração já roubei",
         "poeta": "Mc Souza",
         "id": "QsSK6pC5lS0",
         "start": 15
-    }
-    
+    },    
     {
-        "estrofe": "Porque eu sou o zika virus e vou picar sua p p k",
+        "estrofe": "Porque eu sou o zika virus e vou picar tua ppk",
         "poesia": "Zika Vírus",
         "poeta": "Mc Caveirinha",
         "id": "Qr-l-hVhL4s",
-        "start": 120
+        "start": 49
     }
 ]
