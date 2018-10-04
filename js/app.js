@@ -57,7 +57,7 @@ function setPoetry(data, id) {
     }
 
     let index = id || getIndex(storage);
-    exibirPoesia(data[index]);
+    exibirPoesia(data[index],index);
     setStorage(storage);
 }
 
@@ -83,7 +83,8 @@ function carregarMusica(id, start) {
     document.getElementById("musica").src = src;
 }
 
-function exibirPoesia(poesia) {
+function exibirPoesia(poesia,id) {
+    location.hash = "#" + id;
     document.getElementById("estrofe").innerText = '"' + poesia.estrofe + '"';
     document.getElementById("poeta").innerText = poesia.poeta;
     document.getElementById("poesia").innerText = poesia.poesia;
@@ -100,7 +101,7 @@ function declarePoetry() {
         };
 
         let index = getIndex(storage);
-        exibirPoesia(poetry[index]);
+        exibirPoesia(poetry[index],index);
         setStorage(storage);
     });
 }
