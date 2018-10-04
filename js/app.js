@@ -12,15 +12,32 @@ ready(onReady);
 
 function onReady() {
     getPoetry();
-    declarePoetry();
+
+    document.querySelector('.declare-button').addEventListener('click', (evt) => {
+        evt.preventDefault();
+        declarePoetry();
+    });
+
+
+    document.getElementById('btn-pause').addEventListener('click', (evt) => {
+        evt.preventDefault();
+        pauseYoutube();
+    });
+
+    document.getElementById('btn-play').addEventListener('click', (evt) => {
+        evt.preventDefault();
+        playYoutube();
+    });
 }
 
 function randomNumber(totalelements) {
     return Math.floor(Math.random() * totalelements);
 }
+
 function setStorage(data) {
     localStorage.setItem('shuffle', JSON.stringify(data));
 }
+
 function getStorage() {
     return JSON.parse(localStorage.getItem('shuffle'));
 }
@@ -29,11 +46,13 @@ function getIndex(storageData) {
     return storageData.shift() || 0;
 }
 
-let poetry; // global para ser usada no button :/
+let poetryCollection, poetry;
+let isPlayEnabled = true;
+
 function setPoetry(data) {
     let storage = getStorage();
 
-    poetry = data;
+    poetryCollection = data;
 
     if (!storage || !storage.length) {
         let total = data.length;
@@ -52,7 +71,8 @@ function setPoetry(data) {
     }
 
     let index = getIndex(storage);
-    exibirPoesia(data[index]);
+    poetry = data[index];
+    exibirPoesia(poetry);
     setStorage(storage);
 }
 
@@ -82,36 +102,40 @@ function exibirPoesia(poesia) {
     document.getElementById("estrofe").innerText = '"' + poesia.estrofe + '"';
     document.getElementById("poeta").innerText = poesia.poeta;
     document.getElementById("poesia").innerText = poesia.poesia;
-    carregarMusica(poesia.id, poesia.start);
+
+    if (isPlayEnabled)
+        carregarMusica(poesia.id, poesia.start);
 }
 
 function declarePoetry() {
-    document.querySelector('.declare-button').addEventListener('click', (evt) => {
-        evt.preventDefault();
-        let storage = getStorage();
+    let storage = getStorage();
 
-        if (!storage || !storage.length) {
-            window.location.reload();
-        };
+    if (!storage || !storage.length) {
+        window.location.reload();
+    };
 
-        let index = getIndex(storage);
-        exibirPoesia(poetry[index]);
-        setStorage(storage);
-    });
+    let index = getIndex(storage);
+    poetry = poetryCollection[index]
+
+    exibirPoesia(poetry);
+    setStorage(storage);
 }
 
 function pauseYoutube() {
-   document.getElementById('musica').src = '';
-   document.getElementById('btn-pause').disabled = true;
-   document.getElementById('btn-play').disabled = false;
+    document.getElementById('musica').src = '';
+
+    isPlayEnabled = false;
+    VisibilityAudioButtons();
 }
 
-function playYoutube(id, start) {
-  let storage = getStorage(); 
-  let index = getIndex(storage);  
-  let poesia = poetry[index];
-  this.carregarMusica(poesia.id, poesia.start);
-  this.exibirPoesia(poesia);
-  document.getElementById('btn-pause').disabled = false;
-  document.getElementById('btn-play').disabled = true;
+function playYoutube() {
+    this.carregarMusica(poetry.id, poetry.start);
+
+    isPlayEnabled = true;
+    VisibilityAudioButtons();
+}
+
+function VisibilityAudioButtons() {
+    document.getElementById('btn-pause').disabled = !isPlayEnabled;
+    document.getElementById('btn-play').disabled = isPlayEnabled;
 }
