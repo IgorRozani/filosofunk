@@ -23,6 +23,7 @@
     <meta name="twitter:card" content="summary">
 
 	<link rel="shortcut icon" href="/img/favicon.ico" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="manifest" href="/manifest.json">
     <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
     <link href="./css/site.css" rel="stylesheet" type="text/css">
@@ -55,6 +56,15 @@
 		<h1>Filosofunk</h1>
 		<h6>Lindas frases para aquecer os corações</h6>
 	</header>
+
+	<div style="text-align: center">
+		<button id="btn-pause" class="btn btn-danger" onclick="pauseYoutube()">
+			<i class="fa fa-pause"></i>
+		</button>
+		<button id="btn-play" class="btn btn-danger" onclick="playYoutube()">
+			<i class="fa fa-play"></i>
+		</button>
+	</div>
 	
 	<iframe class="audio" width="0" height="0" id="musica" src="" frameborder="0" allow="autoplay; encrypted-media" ></iframe>
 	
