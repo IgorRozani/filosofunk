@@ -1,11 +1,9 @@
 body {
-    min-width: 500px;
     background-color: #fff;
     background-image: linear-gradient(90deg, transparent 59px, rgb(240,70,79) 59px, rgb(240,70,79) 61px, transparent 61px), linear-gradient(#eee .1em, transparent .1em);
     background-size: 100% 1.2em;
     font-family: 'Dancing Script', Georgia, Times, serif;
 }
-/*#abced4*/
 
 header{
     text-align: center;
@@ -24,40 +22,80 @@ header h6{
     color:rgb(240,50,50);
 }
 
-container {
-    text-align: center;
-}
-
 blockquote {
     font-size: 59px;
     line-height: 60px;
     padding-left: 50px;
     font-weight: bold;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
-p.autor {
-    float: right;
-    margin-right: 100px;
-    margin-top: -45px;
+a {
+    color: rgb(70,81,206);
+    text-decoration: none;
+}
+
+.audio {
+    display: none;
+}
+
+.container {
+    position: relative;
+}
+
+p.titulo {
+    padding-left: 80px;
     font-size: 30px;
+}
+
+p.poeta {
+    padding-left: 80px;
+    margin-right: 100px;
+    margin-top: 15px;
+    font-size: 30px;
+    text-align: right;
+}
+
+p.help-us {
+    text-align: center;
+    font-size: 25px;
 }
 
 .button {
     background-color: transparent;
     border: none;
-    color: rgb(70,81,206);
     font-weight: bold;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 30px;
     padding-left: 80px;
-    padding-top: 100px;
 }
 
-.facebook {
-    float: right;
-    padding-top: 110px;
+.share {
+    margin-top:20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.share .item {
+    padding: 10px;
+}
+
+.share .item a {
+  font-size: 0;
+}
+
+.mascote {
+    opacity:0.2;
+    position:absolute;
+    right:0;
+    bottom:0;
+    max-height: 60%;
+    max-width: 60%;
+    z-index: -1;
 }
