@@ -19,9 +19,9 @@ function onReady() {
     });
 
 
-    document.getElementById('btn-pause').addEventListener('click', (evt) => {
+    document.getElementById('btn-stop').addEventListener('click', (evt) => {
         evt.preventDefault();
-        pauseYoutube();
+        stopYoutube();
     });
 
     document.getElementById('btn-play').addEventListener('click', (evt) => {
@@ -121,7 +121,7 @@ function declarePoetry() {
     setStorage(storage);
 }
 
-function pauseYoutube() {
+function stopYoutube() {
     document.getElementById('musica').src = '';
 
     isPlayEnabled = false;
@@ -136,6 +136,6 @@ function playYoutube() {
 }
 
 function VisibilityAudioButtons() {
-    document.getElementById('btn-pause').disabled = !isPlayEnabled;
+    document.getElementById('btn-stop').disabled = !isPlayEnabled;
     document.getElementById('btn-play').disabled = isPlayEnabled;
 }
