@@ -37,6 +37,19 @@ a {
     text-decoration: none;
 }
 
+.container .button-group {
+    display: flex;
+    justify-content: center;
+}
+
+.container .button-group div {
+    text-align: right;
+}
+
+.container .button-group div, .container .button-group a {
+    width: 40%;
+}
+
 .audio {
     display: none;
 }
@@ -64,14 +77,13 @@ p.help-us {
 }
 
 .button {
+    
     background-color: transparent;
     border: none;
     font-weight: bold;
-    padding: 15px 32px;
-    text-align: center;
+    text-align: left;
     display: inline-block;
     font-size: 30px;
-    padding-left: 80px;
 }
 
 .share {
@@ -166,5 +178,3 @@ p.help-us {
 .show > .btn-danger.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
 }
-
-
