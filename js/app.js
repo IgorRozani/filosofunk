@@ -1,3 +1,7 @@
+/**
+ * Replacing $(document).ready()
+ * @return void
+ */
 function ready(fn) {
     if (document.readyState != 'loading') {
         fn();
@@ -8,6 +12,10 @@ function ready(fn) {
 
 ready(onReady);
 
+/**
+ * Carrega funções
+ * @return void
+ */
 function onReady() {
     if(!location.hash){
         getPoetry();
@@ -32,18 +40,36 @@ function onReady() {
     });
 }
 
+/**
+ * Gera um número randomico
+ * @param totalelements - total de poesias
+ * @return number
+ */
 function randomNumber(totalelements) {
     return Math.floor(Math.random() * totalelements);
 }
 
+/**
+ * Adiciona dados no localStorage
+ * @param data - dados a ser salvo no localStorage
+ */
 function setStorage(data) {
     localStorage.setItem('shuffle', JSON.stringify(data));
 }
 
+/**
+ * Retorna todos os dados salvos no localStorage
+ * @return object
+ */
 function getStorage() {
     return JSON.parse(localStorage.getItem('shuffle'));
 }
 
+/**
+ * Retorna uma posição a partir dos dados salvos no localStorage
+ * @param storageData - valores salvos no localStorage
+ * @return number
+ */
 function getIndex(storageData) {
     return storageData.shift() || 0;
 }
@@ -51,6 +77,12 @@ function getIndex(storageData) {
 let poetryCollection, poetry;
 let isPlayEnabled = true;
 
+/**
+ * Define as poesias no localStorage e exibe na tela
+ * @param data - dados a serem salvos no localStorage e exibidos na tela
+ * @param id - hash da música
+ * @return void
+ */
 function setPoetry(data, id) {
     let storage = getStorage();
 
@@ -78,6 +110,11 @@ function setPoetry(data, id) {
     setStorage(storage);
 }
 
+/**
+ * Obtem poesias
+ * @param id - hash da música
+ * @return void
+ */
 async function getPoetry(id) {
     try {
         let response = await fetch('poesias.json');
@@ -94,12 +131,18 @@ async function getPoetry(id) {
  * Carrega o iframe com a música do youtube
  * @param id - ID do vídeo no youtube
  * @param start - Tempo de início do vídeo
+ * @return void
  */
 function carregarMusica(id, start) {
     var src = 'https://www.youtube.com/embed/' + id + '?loop=1&autoplay=1&start=' + start;
     document.getElementById("musica").src = src;
 }
 
+/**
+ * Exibe a poesia na tela
+ * @param id - ID da música
+ * @return void
+ */
 function exibirPoesia(id) {
     location.hash = "#" + id;
     document.getElementById("estrofe").innerText = '"' + poetry.estrofe + '"';
@@ -110,6 +153,10 @@ function exibirPoesia(id) {
         carregarMusica(poetry.id, poetry.start);
 }
 
+/**
+ * Recarrega página com uma no poesia
+ * @return void
+ */
 function declarePoetry() {
     let storage = getStorage();
 
