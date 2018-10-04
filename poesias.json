@@ -1,12 +1,5 @@
 [
     {
-        "estrofe": "Oh é a fabrica de bico, arsenal de fuzil novo, se tu não acredita no meu poder de fogo",
-        "poesia": "Fábrica de bico",
-        "poeta": "Mc Zoi de Gato",
-        "youtubeId": "eL_w_dU_Jkw",
-        "startTime": 0
-    },
-    {
         "estrofe": "Foca mas não sufoca",
         "poesia": "Ta Tranquilo Ta Favorável",
         "poeta": "Mc Bin Laden",
@@ -537,5 +530,12 @@
         "poeta": "Mc Carol",
         "youtubeId": "oEOrpGaR5do",
         "startTime": 26
+    },
+    {
+        "estrofe": "Oh é a fabrica de bico, arsenal de fuzil novo, se tu não acredita no meu poder de fogo",
+        "poesia": "Fábrica de bico",
+        "poeta": "Mc Zoi de Gato",
+        "youtubeId": "eL_w_dU_Jkw",
+        "startTime": 0
     }
 ]
