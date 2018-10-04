@@ -129,18 +129,18 @@ async function getPoetry(id) {
 
 /**
  * Carrega o iframe com a música do youtube
- * @param id - ID do vídeo no youtube
- * @param start - Tempo de início do vídeo
+ * @param youtubeId - Id do vídeo no youtube
+ * @param startTime - Tempo de início do vídeo
  * @return void
  */
-function carregarMusica(id, start) {
-    var src = 'https://www.youtube.com/embed/' + id + '?loop=1&autoplay=1&start=' + start;
+function carregarMusica(youtubeId, startTime) {
+    var src = 'https://www.youtube.com/embed/' + youtubeId + '?loop=1&autoplay=1&start=' + startTime;
     document.getElementById("musica").src = src;
 }
 
 /**
  * Exibe a poesia na tela
- * @param id - ID da música
+ * @param id - Id da música
  * @return void
  */
 function exibirPoesia(id) {
@@ -150,7 +150,7 @@ function exibirPoesia(id) {
     document.getElementById("poesia").innerText = poetry.poesia;
 
     if (isPlayEnabled)
-        carregarMusica(poetry.id, poetry.start);
+        carregarMusica(poetry.youtubeId, poetry.startTime);
 }
 
 /**
@@ -187,7 +187,7 @@ function stopYoutube() {
  * @return void
  */
 function playYoutube() {
-    this.carregarMusica(poetry.id, poetry.start);
+    carregarMusica(poetry.youtubeId, poetry.startTime);
 
     isPlayEnabled = true;
     VisibilityAudioButtons();
