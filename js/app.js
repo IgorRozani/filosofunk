@@ -11,8 +11,13 @@ function ready(fn) {
 ready(onReady);
 
 function onReady() {
-    getPoetry();
-    declarePoetry();
+    if(!location.hash){
+        getPoetry();
+        declarePoetry();
+    }else{
+        getPoetry(window.location.hash.substring(1));
+        declarePoetry();
+    }
 }
 
 function randomNumber(totalelements) {
@@ -30,7 +35,7 @@ function getIndex(storageData) {
 }
 
 let poetry; // global para ser usada no button :/
-function setPoetry(data) {
+function setPoetry(data, id) {
     let storage = getStorage();
 
     poetry = data;
@@ -51,17 +56,17 @@ function setPoetry(data) {
         storage = shuffle;
     }
 
-    let index = getIndex(storage);
+    let index = id || getIndex(storage);
     exibirPoesia(data[index]);
     setStorage(storage);
 }
 
-async function getPoetry() {
+async function getPoetry(id) {
     try {
         let response = await fetch('poesias.json');
         if (response.status === 200) {
             let data = await response.json();
-            setPoetry(data);
+            setPoetry(data,id);
         }
     } catch (error) {
         throw new Error(`Erro ao obter dados do JSON: ${error}`);
