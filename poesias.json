@@ -476,8 +476,8 @@
        "start" : "6" 
     },
     {
-        "estrofe": "Esconde o celular que o coração nós já roubei",
-        "poesia": "Esconde o celular que o coração já roubei",
+        "estrofe": "Esconde o celular que o coração nós já roubou",
+        "poesia": "Esconde o celular",
         "poeta": "Mc Souza",
         "id": "QsSK6pC5lS0",
         "start": 15
@@ -495,5 +495,40 @@
         "poeta": "Nina Capelly",
         "id": "d2dRhTGmJCU",
         "start": 41
+    },
+    {
+        "estrofe": "Comprei um bagui na C&A e meu nome acabei de sujar, não tenho casa para morar",
+        "poesia": "Furunfa",
+        "poeta": "Mc Lan & Mc WM",
+        "id": "p6K98pKThzA",
+        "start": 43
+    },
+    {
+        "estrofe": "E parabéns pra você, que me fez entender que minha paixão não é você",
+        "poesia": "Amor Falso",
+        "poeta": "Aldair Playboy",
+        "id": "MTNPQYt0NvI",
+        "start": 66
+    },
+    {
+        "estrofe": "Que a panela quando é velha é bom para cozinhar",
+        "poesia": "Vizinha Gostosa",
+        "poeta": "Mc Livinho",
+        "id": "mP81YmBYGVY",
+        "start": 42
+    },
+    {
+        "estrofe": "Ô professora se teu cu fosse rascunho eu rabiscava ele de porra",
+        "poesia": "Escola da putaria",
+        "poeta": "Mc Lan",
+        "id": "PDOhqfSTlhY",
+        "start": 69
+    },
+    {
+        "estrofe": "Liga pra SAMU! Liga pra SAMU! Ela quis transar com três deu hemorragia no cu",
+        "poesia": "Liga Pra Samu",
+        "poeta": "Mc Carol",
+        "id": "oEOrpGaR5do",
+        "start": 26
     }
 ]
