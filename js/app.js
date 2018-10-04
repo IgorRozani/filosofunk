@@ -171,6 +171,10 @@ function declarePoetry() {
     setStorage(storage);
 }
 
+/**
+* Para de tocar vídeo do youtube
+* @return void
+*/
 function stopYoutube() {
     document.getElementById('musica').src = '';
 
@@ -178,6 +182,10 @@ function stopYoutube() {
     VisibilityAudioButtons();
 }
 
+/**
+ * Inicia o vídeo do youtube
+ * @return void
+ */
 function playYoutube() {
     this.carregarMusica(poetry.id, poetry.start);
 
@@ -185,6 +193,10 @@ function playYoutube() {
     VisibilityAudioButtons();
 }
 
+/**
+ * Modifica habilita e desabilita os botões de audio
+ * @return void
+ */
 function VisibilityAudioButtons() {
     document.getElementById('btn-stop').disabled = !isPlayEnabled;
     document.getElementById('btn-play').disabled = isPlayEnabled;
