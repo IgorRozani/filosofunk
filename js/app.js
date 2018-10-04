@@ -1,4 +1,3 @@
-// Replacing $(document).ready()
 function ready(fn) {
     if (document.readyState != 'loading') {
         fn();
@@ -7,11 +6,14 @@ function ready(fn) {
     }
 }
 
-// Adicionando função no ready
 ready(onReady);
 
 function onReady() {
-    getPoetry();
+    if(!location.hash){
+        getPoetry();
+    }else{
+        getPoetry(window.location.hash.substring(1));
+    }
 
     document.querySelector('.declare-button').addEventListener('click', (evt) => {
         evt.preventDefault();
@@ -49,7 +51,7 @@ function getIndex(storageData) {
 let poetryCollection, poetry;
 let isPlayEnabled = true;
 
-function setPoetry(data) {
+function setPoetry(data, id) {
     let storage = getStorage();
 
     poetryCollection = data;
@@ -70,18 +72,18 @@ function setPoetry(data) {
         storage = shuffle;
     }
 
-    let index = getIndex(storage);
+    let index = id || getIndex(storage);
     poetry = data[index];
-    exibirPoesia(poetry);
+    exibirPoesia(index);
     setStorage(storage);
 }
 
-async function getPoetry() {
+async function getPoetry(id) {
     try {
         let response = await fetch('poesias.json');
         if (response.status === 200) {
             let data = await response.json();
-            setPoetry(data);
+            setPoetry(data,id);
         }
     } catch (error) {
         throw new Error(`Erro ao obter dados do JSON: ${error}`);
@@ -98,13 +100,14 @@ function carregarMusica(id, start) {
     document.getElementById("musica").src = src;
 }
 
-function exibirPoesia(poesia) {
-    document.getElementById("estrofe").innerText = '"' + poesia.estrofe + '"';
-    document.getElementById("poeta").innerText = poesia.poeta;
-    document.getElementById("poesia").innerText = poesia.poesia;
+function exibirPoesia(id) {
+    location.hash = "#" + id;
+    document.getElementById("estrofe").innerText = '"' + poetry.estrofe + '"';
+    document.getElementById("poeta").innerText = poetry.poeta;
+    document.getElementById("poesia").innerText = poetry.poesia;
 
     if (isPlayEnabled)
-        carregarMusica(poesia.id, poesia.start);
+        carregarMusica(poetry.id, poetry.start);
 }
 
 function declarePoetry() {
@@ -113,11 +116,11 @@ function declarePoetry() {
     if (!storage || !storage.length) {
         window.location.reload();
     };
-
+  
     let index = getIndex(storage);
-    poetry = poetryCollection[index]
-
-    exibirPoesia(poetry);
+    poetry = poetryCollection[index];
+    exibirPoesia(index);
+  
     setStorage(storage);
 }
 
