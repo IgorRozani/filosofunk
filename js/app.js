@@ -10,7 +10,6 @@ function ready(fn) {
     }
 }
 
-// Adicionando função no ready
 ready(onReady);
 
 /**
@@ -18,8 +17,27 @@ ready(onReady);
  * @return void
  */
 function onReady() {
-    getPoetry();
-    declarePoetry();
+    if(!location.hash){
+        getPoetry();
+    }else{
+        getPoetry(window.location.hash.substring(1));
+    }
+
+    document.querySelector('.declare-button').addEventListener('click', (evt) => {
+        evt.preventDefault();
+        declarePoetry();
+    });
+
+
+    document.getElementById('btn-stop').addEventListener('click', (evt) => {
+        evt.preventDefault();
+        stopYoutube();
+    });
+
+    document.getElementById('btn-play').addEventListener('click', (evt) => {
+        evt.preventDefault();
+        playYoutube();
+    });
 }
 
 /**
@@ -56,17 +74,19 @@ function getIndex(storageData) {
     return storageData.shift() || 0;
 }
 
-let poetry; // global para ser usada no button :/
+let poetryCollection, poetry;
+let isPlayEnabled = true;
 
 /**
  * Define as poesias no localStorage e exibe na tela
  * @param data - dados a serem salvos no localStorage e exibidos na tela
+ * @param id - hash da música
  * @return void
  */
-function setPoetry(data) {
+function setPoetry(data, id) {
     let storage = getStorage();
 
-    poetry = data;
+    poetryCollection = data;
 
     if (!storage || !storage.length) {
         let total = data.length;
@@ -84,21 +104,23 @@ function setPoetry(data) {
         storage = shuffle;
     }
 
-    let index = getIndex(storage);
-    exibirPoesia(data[index]);
+    let index = id || getIndex(storage);
+    poetry = data[index];
+    exibirPoesia(index);
     setStorage(storage);
 }
 
 /**
  * Obtem poesias
+ * @param id - hash da música
  * @return void
  */
-async function getPoetry() {
+async function getPoetry(id) {
     try {
         let response = await fetch('poesias.json');
         if (response.status === 200) {
             let data = await response.json();
-            setPoetry(data);
+            setPoetry(data,id);
         }
     } catch (error) {
         throw new Error(`Erro ao obter dados do JSON: ${error}`);
@@ -118,14 +140,17 @@ function carregarMusica(id, start) {
 
 /**
  * Exibe a poesia na tela
- * @param poesia - infos da poesias exibida na tela
+ * @param id - ID da música
  * @return void
  */
-function exibirPoesia(poesia) {
-    document.getElementById("estrofe").innerText = '"' + poesia.estrofe + '"';
-    document.getElementById("poeta").innerText = poesia.poeta;
-    document.getElementById("poesia").innerText = poesia.poesia;
-    carregarMusica(poesia.id, poesia.start);
+function exibirPoesia(id) {
+    location.hash = "#" + id;
+    document.getElementById("estrofe").innerText = '"' + poetry.estrofe + '"';
+    document.getElementById("poeta").innerText = poetry.poeta;
+    document.getElementById("poesia").innerText = poetry.poesia;
+
+    if (isPlayEnabled)
+        carregarMusica(poetry.id, poetry.start);
 }
 
 /**
@@ -133,16 +158,34 @@ function exibirPoesia(poesia) {
  * @return void
  */
 function declarePoetry() {
-    document.querySelector('.declare-button').addEventListener('click', (evt) => {
-        evt.preventDefault();
-        let storage = getStorage();
+    let storage = getStorage();
 
-        if (!storage || !storage.length) {
-            window.location.reload();
-        };
+    if (!storage || !storage.length) {
+        window.location.reload();
+    };
+  
+    let index = getIndex(storage);
+    poetry = poetryCollection[index];
+    exibirPoesia(index);
+  
+    setStorage(storage);
+}
 
-        let index = getIndex(storage);
-        exibirPoesia(poetry[index]);
-        setStorage(storage);
-    });
+function stopYoutube() {
+    document.getElementById('musica').src = '';
+
+    isPlayEnabled = false;
+    VisibilityAudioButtons();
+}
+
+function playYoutube() {
+    this.carregarMusica(poetry.id, poetry.start);
+
+    isPlayEnabled = true;
+    VisibilityAudioButtons();
+}
+
+function VisibilityAudioButtons() {
+    document.getElementById('btn-stop').disabled = !isPlayEnabled;
+    document.getElementById('btn-play').disabled = isPlayEnabled;
 }
