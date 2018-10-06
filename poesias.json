@@ -468,12 +468,12 @@
         "youtubeId": "d8vW3Z-NHlE",
         "startTime": 4
     },
-    { 
+    {
        "estrofe": "Cheiro de lança do bom, Ei tu ta na gaiola, Cheiro de maconha boa, Ei tu ta na gaiola",
        "poesia": "Cheiro de maconha boa",
        "poeta" : "Mc Kevin O Chris",
        "youtubeId": "EVZmfGPwJqo",
-       "startTime" : "6" 
+       "startTime" : "6"
     },
     {
         "estrofe": "Esconde o celular que o coração nós já roubou",
@@ -481,7 +481,7 @@
         "poeta": "Mc Souza",
         "youtubeId": "QsSK6pC5lS0",
         "startTime": 15
-    },    
+    },
     {
         "estrofe": "Porque eu sou o zika virus e vou picar tua ppk",
         "poesia": "Zika Vírus",
@@ -530,5 +530,12 @@
         "poeta": "Mc Carol",
         "youtubeId": "oEOrpGaR5do",
         "startTime": 26
+    },
+    {
+        "estrofe": "Em matéria de amor Todos me conhecem bem Vou fazer tu vibrar No meu estilo vai e vem",
+        "poesia": "Glamurosa",
+        "poeta": "Mc Marcinho",
+        "youtubeId": "LBrDIPR5ALg",
+        "startTime": 50
     }
 ]
