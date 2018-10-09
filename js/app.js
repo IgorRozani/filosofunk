@@ -23,6 +23,14 @@ function onReady() {
         getPoetry(window.location.hash.substring(1));
     }
 
+    window.addEventListener("hashchange", (evt) =>{
+        if(!location.hash){
+            getPoetry();
+        }else{
+            getPoetry(window.location.hash.substring(1));
+        }
+    }, false);
+
     document.querySelector('.declare-button').addEventListener('click', (evt) => {
         evt.preventDefault();
         declarePoetry();
