@@ -56,17 +56,17 @@ function onPlayerReady(event) {
 function onPlayerStateChange(event) {
   switch (event.data) {
     case YT.PlayerState.PLAYING:
-      moveFezinhoPatatty("sarrando");
+      moveFezinhoPatatyy("sarrando");
       break;
     case YT.PlayerState.PAUSED:
-      moveFezinhoPatatty("parado");
+      moveFezinhoPatatyy("parado");
       break;
     case YT.PlayerState.ENDED:
-      moveFezinhoPatatty("parado");
+      moveFezinhoPatatyy("parado");
       updateVisibilityButtonsToState("stop");
       break;
     default:
-      moveFezinhoPatatty("parado");
+      moveFezinhoPatatyy("parado");
   }
 }
 
@@ -121,7 +121,7 @@ function carregarMusica(youtubeId, startTime) {
  * @param movement - Movimento que será executado pelo fezinho
  * @return void
  */
-function moveFezinhoPatatty(movement) {
+function moveFezinhoPatatyy(movement) {
   let src = null;
 
   switch (movement) {
@@ -132,5 +132,5 @@ function moveFezinhoPatatty(movement) {
       src = "./img/fezinho-parado.gif";
   }
 
-  document.getElementById("fezinho-patatty").src = src;
+  document.getElementById("fezinho-patatyy").src = src;
 }
