@@ -532,20 +532,6 @@
         "startTime": 26
     },
     {
-        "estrofe": "Mulher de um homem só é mulher sofrida. Mulher que tem dois homens é evoluída. Mulher que tem três homens é uma atrevida. E a que tiver mais? Ela não sofre, ela curte a vida",
-        "poesia": "Ela é bandida",
-        "poeta": "Mc Mayara",
-        "youtubeId": "GtSYZWvygjk",
-        "startTime": 14
-    },
-    {
-        "estrofe": "Teoria da Branca de Neve. Por que só ter um, se eu posso ter sete?",
-        "poesia": "Teoria da branca de neve",
-        "poeta": "Mc Mayara",
-        "youtubeId": "7Jf7QoW5j8w",
-        "startTime": 37
-    },
-    {
         "estrofe": "Mulher gostosa não é a que tem tetão, não é a que tem bundão é a que faz gostoso na giromba, ladrão!",
         "poesia": "Sua Amiga Vou Pegar",
         "poeta": "Mc Lan part. MC WM",
@@ -677,5 +663,19 @@
         "poeta": "Mc Rick",
         "youtubeId": "b-NY3G8q6As",
         "startTime": 34
+    },
+    {
+        "estrofe": "Mulher de um homem só é uma mulher sofrida. Mulher que tem dois homens é evoluída. Mulher que tem três homens é uma atrevida. E a que tiver mais? Ela não sofre, ela curte a vida",
+        "poesia": "Ela é bandida",
+        "poeta": "Mc Mayara",
+        "youtubeId": "GtSYZWvygjk",
+        "startTime": 14
+    },
+    {
+        "estrofe": "Teoria da Branca de Neve. Por que só ter um, se eu posso ter sete?",
+        "poesia": "Teoria da branca de neve",
+        "poeta": "Mc Mayara",
+        "youtubeId": "7Jf7QoW5j8w",
+        "startTime": 37
     }
 ]
