@@ -737,8 +737,15 @@
     {
         "estrofe": "Essas malandra assanhadinha, que só quer vrau, só quer vrau.",
         "poesia": "Só Quer Vrau",
-        "poeta": "Mc MM"
-        "youtube": "sbXg6CWUXuo",
+        "poeta": "Mc MM",
+        "youtubeId": "sbXg6CWUXuo",
         "startTime": 14
+    },
+    {
+        "estrofe": "Rosa eu dou pra quem tá morta, pra quem tá viva eu dou é piroca.",
+        "poesia": "Rosa",
+        "poeta": "Mc Luizinho",
+        "youtubeId": "9UF3oE-98b0",
+        "startTime": 22
     }
 ]
