@@ -33,7 +33,7 @@ request.onload = function() {
             var maxRandom = data.length;
 
             for (var i = 0; i < maxRandom; i++){
-                var key = randomNumber(data.length);
+                var key = randomNumber(maxRandom);
 
                 if (!dataShufle[key]) {
                   dataShufle[key] = i;
@@ -59,7 +59,7 @@ function showPoetry(poetry) {
   document.getElementById("poesia").innerText = poetry.poesia;
 }
 
-function declamar(event) {
+function declaim(event) {
   event.preventDefault();
   var ds = JSON.parse(localStorage.getItem("shuffle"));
   if (!ds || !ds.length){
