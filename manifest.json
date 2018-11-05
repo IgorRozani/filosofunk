@@ -1,4 +1,4 @@
-{
+﻿{
     "short_name": "Filosofunk",
     "name": "Filosofunk",
     "icons": [
@@ -20,7 +20,7 @@
     ],
     "start_url": "/",
     "display": "standalone",
-    "description":"Lindas frases para aquecer os corações",
+    "description":"Lindas frases para aquecer os corações partidos",
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "scope": "/"
