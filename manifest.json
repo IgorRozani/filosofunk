@@ -20,7 +20,7 @@
     ],
     "start_url": "/",
     "display": "standalone",
-    "description":"Lindas frases para aquecer os corações partidos",
+    "description":"Lindas frases para aquecer os corações",
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "scope": "/"
