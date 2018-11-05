@@ -77,7 +77,6 @@ p.help-us {
 }
 
 .button {
-    
     background-color: transparent;
     border: none;
     font-weight: bold;
@@ -87,7 +86,7 @@ p.help-us {
 }
 
 .share {
-    margin-top:20px;
+    margin-top: 20px;
     width: 100%;
     text-align: center;
     display: flex;
@@ -109,6 +108,18 @@ p.help-us {
     bottom:0;
     max-height: 60%;
     max-width: 60%;
+    z-index: -1;
+}
+
+.fezinho-patatyy {
+    opacity:0.2;
+    position:absolute;
+    left: 140px;
+    bottom: -20px;
+    width: 200px;
+    height: 120px;
+    max-height: 50%;
+    max-width: 50%;
     z-index: -1;
 }
 
