@@ -745,7 +745,7 @@
         "estrofe": "Escorrega, escorrega com o bumbum",
         "poesia": "Novinha Safadinha",
         "poeta": "Mc Tarapi Feat Dennis",
-        "youtube": "8Nztn_grhhY",
+        "youtubeId": "8Nztn_grhhY",
         "startTime": 20
     },
     {
@@ -803,13 +803,19 @@
         "poeta": "Mc Livinho",
         "youtubeId": "b9jo4mk0VQU",
         "startTime": 75
-    }
-   
+    },   
     {
         "estrofe": "Tu vai sentar, tu vai sentar, tu vai sentar devagar",
         "poesia": "Envolvimento",
         "poeta": "Mc Loma e As Gêmeas Lacração"
         "youtubeId": "lgJOJAmXlBw",
         "startTime": 62
-    }    
+    },
+    {
+        "estrofe": "Quebrar de ladinho com dedinho na boca, Olha só que coisa louca",
+        "poesia": "Sereia do Mar",
+        "poeta": "Bonde da Oskley"
+        "youtube": "Hcr3Jvcoes0",
+        "startTime": 39
+    }
 ]
