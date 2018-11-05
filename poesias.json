@@ -7,13 +7,6 @@
         "startTime": 21
     },
     {
-      "estrofe": "Se ela dança eu danço",
-      "poesia": "Ela só pensa em beijar",
-      "poeta": "Mc Leozinho",
-      "youtubeId": "fs5XnExJ6ms",
-      "startTime": 15
-    },
-    {
         "estrofe": "Você é tipo pantufa, em casa é gostosinha mas fora passo vergonha",
         "poesia": "Pensando em você",
         "poeta": "Edy Lemond",
@@ -775,5 +768,19 @@
         "poeta": "MC Kekel e MC Rita",
         "youtubeId": "8_oE-iQeFeE",
         "startTime": 74
+    },
+    {
+      "estrofe": "Se ela dança eu danço",
+      "poesia": "Ela só pensa em beijar",
+      "poeta": "Mc Leozinho",
+      "youtubeId": "fs5XnExJ6ms",
+      "startTime": 15
+    },
+    {
+        "estrofe": "Porque você não sabe o sentido de amar",
+        "poesia": "Jogo do amor",
+        "poeta": "Mc Bruninho",
+        "youtubeId": "yQwbfvz4kqc",
+        "startTime": 49
     }
 ]
