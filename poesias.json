@@ -742,10 +742,59 @@
         "startTime": 14
     },
     {
+        "estrofe": "Escorrega, escorrega com o bumbum",
+        "poesia": "Novinha Safadinha",
+        "poeta": "Mc Tarapi Feat Dennis",
+        "youtube": "8Nztn_grhhY",
+        "startTime": 20
+    },
+    {
+        "estrofe": "Essa novinha é terrorista, é especialista, olha o que ela faz no baile funk com as amigas",
+        "poesia": "Olha a Explosão",
+        "poeta": "Mc Kevinho",
+        "youtubeId": "3yd_eoMOvqk",
+        "startTime": 8  
+    },
+    {
+        "estrofe": "Vai, só de sacanagem, vem na fuleragenzinha",
+        "poesia": "Fuleragem",
+        "poeta": "Mc WM",
+        "youtubeId": "4N2iMmHcHys",
+        "startTime": 29
+    },
+    {
+        "estrofe": "Na vida podem existir milhares, mas nenhum vai ser como você. Que comigo o amor foi de verdade, que fez a minha vida acontecer. Eu troco a estrela por um beijo seu, eu troco aquela lua pelo seu olhar, eu deixo de viver no paraíso. Minha verdade é você meu lar",
+        "poesia": "Amor de Verdade",
+        "poeta": "MC Kekel e MC Rita",
+        "youtubeId": "8_oE-iQeFeE",
+        "startTime": 74
+    },
+    {
+      "estrofe": "Se ela dança eu danço",
+      "poesia": "Ela só pensa em beijar",
+      "poeta": "Mc Leozinho",
+      "youtubeId": "fs5XnExJ6ms",
+      "startTime": 15
+    },
+    {
+        "estrofe": "Porque você não sabe o sentido de amar",
+        "poesia": "Jogo do amor",
+        "poeta": "Mc Bruninho",
+        "youtubeId": "yQwbfvz4kqc",
+        "startTime": 49
+    },
+    {
+      "estrofe": "Fala pro teu pai que eu não quero dinheiro",
+      "poesia": "Sou favela",
+      "poeta": "Mc Bruninho & Vitinho Ferrari",
+      "youtubeId": "PvJIwSPte4E",
+      "startTime": 65
+    },
+    {
         "estrofe": "Rosa eu dou pra quem tá morta, pra quem tá viva eu dou é piroca.",
-        "poesia": "Rosa",
+        "poesia": "Rosa dou pra quem tá morta",
         "poeta": "Mc Luizinho",
-        "youtubeId": "9UF3oE-98b0",
-        "startTime": 22
+        "youtubeId": "Qxa_iMkAHCQ",
+        "startTime": 39
     }
 ]
