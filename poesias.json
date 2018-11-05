@@ -14,13 +14,6 @@
         "startTime": 7
     },
     {
-            "estrofe": "Nois é foda, o resto é moda",
-            "poesia": "A melhor do Baile",
-            "poeta": "Dani Russo",
-            "youtubeId": "S1xe6VqHCwo",
-            "startTime": "39"
-    },
-    {
         "estrofe": "Nois é bom mas não é bombom",
         "poesia": "Bololo Haha",
         "poeta": "Mc Bin Laden",
@@ -822,7 +815,14 @@
         "estrofe": "Quebrar de ladinho com dedinho na boca, Olha só que coisa louca",
         "poesia": "Sereia do Mar",
         "poeta": "Bonde da Oskley"
-        "youtube": "Hcr3Jvcoes0",
+        "youtubeId": "Hcr3Jvcoes0",
         "startTime": 39
-    }
+    },
+    {
+        "estrofe": "Nois é foda, o resto é moda",
+        "poesia": "A melhor do Baile",
+        "poeta": "Dani Russo",
+        "youtubeId": "S1xe6VqHCwo",
+        "startTime": 39
+    },
 ]
