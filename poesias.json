@@ -807,14 +807,14 @@
     {
         "estrofe": "Tu vai sentar, tu vai sentar, tu vai sentar devagar",
         "poesia": "Envolvimento",
-        "poeta": "Mc Loma e As Gêmeas Lacração"
+        "poeta": "Mc Loma e As Gêmeas Lacração",
         "youtubeId": "lgJOJAmXlBw",
         "startTime": 62
     },
     {
         "estrofe": "Quebrar de ladinho com dedinho na boca, Olha só que coisa louca",
         "poesia": "Sereia do Mar",
-        "poeta": "Bonde da Oskley"
+        "poeta": "Bonde da Oskley",
         "youtubeId": "Hcr3Jvcoes0",
         "startTime": 39
     },
@@ -931,10 +931,17 @@
         "startTime": 34
     },
     {
-	"estrofe": "Vem de saia sem calcinha que hoje rola a social, novinha, bate com a tcheca no pau.",
+	    "estrofe": "Vem de saia sem calcinha que hoje rola a social, novinha, bate com a tcheca no pau.",
         "poesia": "Social da Putaria",
         "poeta": "Mc 7Belo & Mc GW",
         "youtubeId": "yXUvtjMe_WM",
         "startTime": 77
+    },
+    {
+	    "estrofe": "A camisinha agora é meu guarda-chuva",
+        "poesia": "Hoje Tem Baile na Tribo",
+        "poeta": "Mc Lan & Mc Gw",
+        "youtubeId": "1N94cv3F6a4",
+        "startTime": 33
     }
 ]
