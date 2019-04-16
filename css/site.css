@@ -178,3 +178,20 @@ p.help-us {
 .show > .btn-danger.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
 }
+
+@media screen and (max-width: 770px) {
+  body {
+    background-image: linear-gradient(90deg, transparent 29px, rgb(240,70,79) 29px, rgb(240,70,79) 31px, transparent 31px), linear-gradient(#eee .1em, transparent .1em);
+  }
+  header {
+    padding: 0 0 0 28px;
+  }
+  p.help-us {
+    padding: 0 22px;
+  }  
+}
+@media screen and (max-width: 480px) {
+  .share {
+    flex-direction: column;
+  }  
+}
