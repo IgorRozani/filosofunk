@@ -952,10 +952,24 @@
         "startTime": 50
     },
     {
-	"estrofe": "Eu quero luxo e dinheiro, ousadia e ostentação",
+	"estrofe": "De romance eu corro e de amor eu não morro.",
+        "poesia": "Engole o Choro",
+        "poeta": "Mc Kapela",
+        "youtubeId": "PvDH7xv1VcQ",
+        "startTime": 59
+    },
+    {
+     "estrofe": "Já te falei que eu não presto",
+        "poesia": "Pode Se Soltar",
+        "poeta": "Jerry Smith",
+        "youtubeId": "XwuR8RKvOIo",
+        "startTime": 102
+    },
+   {
+     "estrofe": "Eu quero luxo e dinheiro, ousadia e ostentação",
         "poesia": "Pode Vim Que Tem",
         "poeta": "Mc Bruxo",
         "youtubeId": "ONdgRHvgY6o",
         "startTime": 34
-    }
+   }
 ]
