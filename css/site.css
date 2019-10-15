@@ -51,7 +51,7 @@ a {
 }
 
 .audio {
-    display: none;
+  position: absolute;
 }
 
 .container {
