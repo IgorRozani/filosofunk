@@ -52,39 +52,39 @@
 	<!-- End Facebook buttons-->
 
 	<header>
-		<h1>Filosofunk</h1>
-		<h6>Lindas frases para aquecer os corações</h6>
+		<h1 class="header__titulo">Filosofunk</h1>
+		<h6 class="header__sub-titulo">Lindas frases para aquecer os corações</h6>
 	</header>
 	
 	<iframe class="audio" width="0" height="0" id="musica" src="" frameborder="0" allow="autoplay; encrypted-media" ></iframe>
 	
 	<div class="container">
 		<p class="titulo">Trecho de "<span id="poesia"></span>"</p>
-		<blockquote id="estrofe"></blockquote>
+		<blockquote class="blockquote" id="estrofe"></blockquote>
 		<p class="poeta" id="poeta"></p>
 
-		<a href="#" class="declare-button button">Declamar outra poesia</a>
+		<a rel="noopener" href="#" class="declare-button button link" aria-label="Declarar outra poesia">Declamar outra poesia</a>
 		
 		<div class="share">
 
 			<div class="fb-like item" data-href="https://www.facebook.com/filosofunksite/" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="false"></div>
 
-			<div class="fb-share-button item" data-href="http://filosofunk.com.br" data-layout="button" data-size="large" data-mobile-iframe="true">
-        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ffilosofunk.com.br%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">
+			<div aria-label="Compartilhar facebook" class="fb-share-button item" data-href="http://filosofunk.com.br" data-layout="button" data-size="large" data-mobile-iframe="true">
+        <a rel="noopener" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ffilosofunk.com.br%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore link">
           Compartilhar
         </a>
       </div>
 
-			<div class="item">
-				<a href="https://twitter.com/intent/tweet?text=http://filosofunk.com.br&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-size="large">
+			<div class="item" aria-label="Twettar">
+				<a rel="noopener" href="https://twitter.com/intent/tweet?text=http://filosofunk.com.br&ref_src=twsrc%5Etfw" class="twitter-hashtag-button link" data-size="large">
           Tweet #Filosofunk
         </a>
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 			</div>
 		</div>
 
-		<p class="help-us">Conhece alguma frase que não está aqui? <a href="https://github.com/IgorRozani/filosofunk" target="_blank">Envie sua frase em nosso GitHub.</a></p>
-		<img src="./img/mascote.png" class="mascote">
+		<p class="help-us">Conhece alguma frase que não está aqui? <a class="link" href="https://github.com/IgorRozani/filosofunk" target="_blank">Envie sua frase em nosso GitHub.</a></p>
+		<img src="./img/mascote.png" class="mascote" alt="Homem com um bigode, boina e a mão no queixo">
 	</div>
 </body>
 </html>

@@ -9,20 +9,20 @@ header{
     text-align: center;
 }
 
-header h1 {
+.header__titulo {
     font-size: 50px;
     padding: 0px;
     margin: 0px;
     color:rgb(240,50,50);
 }
 
-header h6{
+.header__sub-titulo {
     font-size: 25px;
     margin-top: 0px;
     color:rgb(240,50,50);
 }
 
-blockquote {
+.blockquote {
     font-size: 59px;
     line-height: 60px;
     padding-left: 50px;
@@ -32,7 +32,7 @@ blockquote {
     margin-bottom: 0px;
 }
 
-a {
+.link {
     color: rgb(70,81,206);
     text-decoration: none;
 }
