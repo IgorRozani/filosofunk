@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "estrofe": "Foca mas não sufoca",
         "poesia": "Ta Tranquilo Ta Favorável",
@@ -469,11 +469,11 @@
         "startTime": 4
     },
     {
-       "estrofe": "Cheiro de lança do bom, Ei tu ta na gaiola, Cheiro de maconha boa, Ei tu ta na gaiola",
-       "poesia": "Cheiro de maconha boa",
-       "poeta" : "Mc Kevin O Chris",
-       "youtubeId": "EVZmfGPwJqo",
-       "startTime" : "6"
+        "estrofe": "Cheiro de lança do bom, Ei tu ta na gaiola, Cheiro de maconha boa, Ei tu ta na gaiola",
+        "poesia": "Cheiro de maconha boa",
+        "poeta": "Mc Kevin O Chris",
+        "youtubeId": "EVZmfGPwJqo",
+        "startTime": "6"
     },
     {
         "estrofe": "Esconde o celular que o coração nós já roubou",
@@ -575,7 +575,7 @@
     },
     {
         "estrofe": "Vai sentando sem compromisso eu não quero namorar contigo",
-        "poesia":  "Vai sentando sem compromisso, eu não quero namorar contigo",
+        "poesia": "Vai sentando sem compromisso, eu não quero namorar contigo",
         "poeta": "Mc Alysson",
         "youtubeId": "BH8YZdppn_U",
         "startTime": 19
@@ -634,11 +634,11 @@
         "poesia": "Azul Piscina",
         "poeta": "Mc Livinho",
         "youtubeId": "cplbrMIL2Rk",
-        "startTime": 30  
+        "startTime": 30
     },
     {
         "estrofe": "Se me vê agarrado com ela, separa que é briga, tá ligado!",
-        "poesia":  "Dona Gigi",
+        "poesia": "Dona Gigi",
         "poeta": "Os Caçadores",
         "youtubeId": "zUDfvOsTuyY",
         "startTime": 26
@@ -649,8 +649,8 @@
         "poeta": "Bonde do Tigrão",
         "youtubeId": "iPhjz6zcnnI",
         "startTime": 13
-     },
-     {
+    },
+    {
         "estrofe": "Oh novinha, eu quero te ver contente, Não abandona o piru da gente",
         "poesia": "Oh Novinha Eu Quero te Ver Contente",
         "poeta": "Mc Don Juan",
@@ -753,7 +753,7 @@
         "poesia": "Olha a Explosão",
         "poeta": "Mc Kevinho",
         "youtubeId": "3yd_eoMOvqk",
-        "startTime": 8  
+        "startTime": 8
     },
     {
         "estrofe": "Vai, só de sacanagem, vem na fuleragenzinha",
@@ -770,11 +770,11 @@
         "startTime": 74
     },
     {
-      "estrofe": "Se ela dança eu danço",
-      "poesia": "Ela só pensa em beijar",
-      "poeta": "Mc Leozinho",
-      "youtubeId": "fs5XnExJ6ms",
-      "startTime": 15
+        "estrofe": "Se ela dança eu danço",
+        "poesia": "Ela só pensa em beijar",
+        "poeta": "Mc Leozinho",
+        "youtubeId": "fs5XnExJ6ms",
+        "startTime": 15
     },
     {
         "estrofe": "Porque você não sabe o sentido de amar",
@@ -784,11 +784,11 @@
         "startTime": 49
     },
     {
-      "estrofe": "Fala pro teu pai que eu não quero dinheiro",
-      "poesia": "Sou favela",
-      "poeta": "Mc Bruninho & Vitinho Ferrari",
-      "youtubeId": "PvJIwSPte4E",
-      "startTime": 65
+        "estrofe": "Fala pro teu pai que eu não quero dinheiro",
+        "poesia": "Sou favela",
+        "poeta": "Mc Bruninho & Vitinho Ferrari",
+        "youtubeId": "PvJIwSPte4E",
+        "startTime": 65
     },
     {
         "estrofe": "Rosa eu dou pra quem tá morta, pra quem tá viva eu dou é piroca.",
@@ -803,7 +803,7 @@
         "poeta": "Mc Livinho",
         "youtubeId": "b9jo4mk0VQU",
         "startTime": 75
-    },   
+    },
     {
         "estrofe": "Tu vai sentar, tu vai sentar, tu vai sentar devagar",
         "poesia": "Envolvimento",
@@ -908,9 +908,9 @@
         "poeta": "Mc Reino & Mc Ramon & Lipe Play",
         "youtubeId": "o8Aa_Cs0-0M",
         "startTime": 38
-        },
+    },
     {
-      "estrofe": "Pra ser fiel, só a torcida da Gaviões",
+        "estrofe": "Pra ser fiel, só a torcida da Gaviões",
         "poesia": "Pra ser Fiel",
         "poeta": "Mc Daleste",
         "youtubeId": "euAyqjl9lMU",
@@ -938,67 +938,73 @@
         "startTime": 34
     },
     {
-	"estrofe": "Vem de saia sem calcinha que hoje rola a social, novinha, bate com a tcheca no pau.",
+        "estrofe": "Vem de saia sem calcinha que hoje rola a social, novinha, bate com a tcheca no pau.",
         "poesia": "Social da Putaria",
         "poeta": "Mc 7Belo & Mc GW",
         "youtubeId": "yXUvtjMe_WM",
         "startTime": 77
     },
     {
-	"estrofe": "A camisinha agora é meu guarda-chuva",
+        "estrofe": "A camisinha agora é meu guarda-chuva",
         "poesia": "Hoje Tem Baile na Tribo",
         "poeta": "Mc Lan & Mc Gw",
         "youtubeId": "1N94cv3F6a4",
         "startTime": 33
     },
     {
-	"estrofe": "Me tira da cabeça que eu não sou shampoo",
+        "estrofe": "Me tira da cabeça que eu não sou shampoo",
         "poesia": "Essa Vai Pra Tu",
         "poeta": "Mc G15",
         "youtubeId": "JvG5jndDLpE",
         "startTime": 50
     },
     {
-	"estrofe": "De romance eu corro e de amor eu não morro.",
+        "estrofe": "De romance eu corro e de amor eu não morro.",
         "poesia": "Engole o Choro",
         "poeta": "Mc Kapela",
         "youtubeId": "PvDH7xv1VcQ",
         "startTime": 59
     },
     {
-     "estrofe": "Já te falei que eu não presto",
+        "estrofe": "Já te falei que eu não presto",
         "poesia": "Pode Se Soltar",
         "poeta": "Jerry Smith",
         "youtubeId": "XwuR8RKvOIo",
         "startTime": 102
     },
-   {
-     "estrofe": "Eu quero luxo e dinheiro, ousadia e ostentação",
+    {
+        "estrofe": "Eu quero luxo e dinheiro, ousadia e ostentação",
         "poesia": "Pode Vim Que Tem",
         "poeta": "Mc Bruxo",
         "youtubeId": "ONdgRHvgY6o",
         "startTime": 34
-   },
-   {
-     "estrofe": "Parando tudo, to pesadão e o nosso lema é ostentar superação",
+    },
+    {
+        "estrofe": "Parando tudo, to pesadão e o nosso lema é ostentar superação",
         "poesia": "Ostentar Superação",
         "poeta": "MC João",
         "youtubeId": "UVRGUHLkhEw",
         "startTime": 96
     },
-   {
-     "estrofe": "É minha brisa que te deixa todo lombrado",
+    {
+        "estrofe": "É minha brisa que te deixa todo lombrado",
         "poesia": "Surtada Remix BregaFunk",
         "poeta": "Dadá Boladão, Tati Zaqui feat OIK",
         "youtubeId": "vhPhZbO7OXE",
         "startTime": 106
-   },
-   {
-      "estrofe": "Não adianta tu se declarar, romance e compromisso comigo não rola",
-            "poesia": "Te Amo Sem Compromisso",
-            "poeta": "Mc Doni",
-            "youtubeId": "zEE77Flhr9Y",
-            "startTime": 16
-        }
-   }
+    },
+    {
+        "estrofe": "Não adianta tu se declarar, romance e compromisso comigo não rola",
+        "poesia": "Te Amo Sem Compromisso",
+        "poeta": "Mc Doni",
+        "youtubeId": "zEE77Flhr9Y",
+        "startTime": 16
+    },
+    {
+        "estrofe": "Hoje a mira tá certeira não adianta se esquivar, eu vou atirar, essa é minha vibe, empina e não reage, por que, meu piru tá sniper",
+        "poesia": "Sniper",
+        "poeta": "MC Kevin",
+        "youtubeId": "s2wRWUclHws",
+        "startTime": 15
+    }
 ]
