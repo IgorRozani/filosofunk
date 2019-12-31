@@ -1051,6 +1051,13 @@
    },
    {
       "estrofe": "Não adianta tu se declarar, romance e compromisso comigo não rola",
+     "poesia": "Te Amo Sem Compromisso",
+        "poeta": "Mc Doni",
+        "youtubeId": "zEE77Flhr9Y",
+        "startTime": 16
+   },
+  {
+    "estrofe": "Não adianta tu se declarar, romance e compromisso comigo não rola",
             "poesia": "Te Amo Sem Compromisso",
             "poeta": "Mc Doni",
             "youtubeId": "zEE77Flhr9Y",
@@ -1126,13 +1133,19 @@
             "startTime": 00
     },
     {
-        "estrofe": "Não adianta tu se declarar, romance e compromisso comigo não rola",
         "poesia": "Te Amo Sem Compromisso",
         "poeta": "Mc Doni",
         "youtubeId": "zEE77Flhr9Y",
         "startTime": 16
     },
     {
+        "estrofe": "Minha vó tá maluca",
+        "poesia": "Minha vó tá maluca",
+        "poeta": "Mc Carol",
+        "youtubeId": "OaKMY1FXm2w",
+        "startTime": 9
+    },
+  {
         "estrofe": "Mas eu já sei o que fazer pra resolver esse conflito. Ela finge que me ama, que me ama e eu finjo que acredito",
         "poesia": "Contatinho",
         "poeta": "Nego do Borel",
