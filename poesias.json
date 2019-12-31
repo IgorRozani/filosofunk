@@ -14,6 +14,13 @@
         "startTime": 7
     },
     {
+        "estrofe": "Vai toma, vai toma sua gostosa",
+        "poesia": "Vai Toma",
+        "poeta": "MC Fioti",
+        "youtubeId": "ZHnsBn_jmwA",
+        "startTime": 8
+    },
+    {
         "estrofe": "Nois é bom mas não é bombom",
         "poesia": "Bololo Haha",
         "poeta": "Mc Bin Laden",
@@ -467,6 +474,14 @@
         "poeta": "Mc Carol",
         "youtubeId": "d8vW3Z-NHlE",
         "startTime": 4
+    },
+    {
+
+       "estrofe": "Cheiro de lança do bom, Ei tu ta na gaiola, Cheiro de maconha boa, Ei tu ta na gaiola",
+       "poesia": "Cheiro de maconha boa",
+       "poeta" : "Mc Kevin O Chris",
+       "youtubeId": "EVZmfGPwJqo",
+       "startTime" : 6
     },
     {
         "estrofe": "Cheiro de lança do bom, Ei tu ta na gaiola, Cheiro de maconha boa, Ei tu ta na gaiola",
@@ -992,6 +1007,61 @@
         "poeta": "Dadá Boladão, Tati Zaqui feat OIK",
         "youtubeId": "vhPhZbO7OXE",
         "startTime": 106
+   },
+   {
+      "estrofe": "Não adianta tu se declarar, romance e compromisso comigo não rola",
+            "poesia": "Te Amo Sem Compromisso",
+            "poeta": "Mc Doni",
+            "youtubeId": "zEE77Flhr9Y",
+            "startTime": 16
+    },
+    {
+        "estrofe": "Amar, amei. Gostar, gostei. Mas agora não quero nem de graça",
+        "poesia": "Amer, ameu",
+        "poeta": "MC Don Juan",
+        "youtubeId": "_Qub7jfzYQw",
+        "startTime": 4
+    },
+   {
+      "poesia": "Te Amo Sem Compromisso",
+      "poeta": "Mc Doni",
+      "youtubeId": "zEE77Flhr9Y",
+      "startTime": 16
+   },
+   {
+      "estrofe": "Vem pra cá tchutchuca linda",
+      "poesia": "Malha Funk",
+      "poeta": "Malha Funk",
+      "youtubeId": "kTj8uS7XgKA",
+      "startTime": 21
+   },
+   {
+    "estrofe": "A minha ex quer virar a minha amiga",
+    "poesia": "Coisas da Vida",
+    "poeta": "MC Roge",
+    "youtubeId": "bjbNInJr3vI",
+    "startTime": 2
+   },
+   {
+      "estrofe": "Eita bongada pesada que a novinha deu, tá achando que é bruxinha",
+            "poesia": "Harry Porra e a Bruxinha Rabuda",
+            "poeta": "Mc Maha",
+            "youtubeId": "0i5EdFHDlHo",
+            "startTime": 13
+   },
+	 {
+     "estrofe": "Sou herói profissional, minha individualidade é te fazer querer meu pau",
+        "poesia": "Boku no piru",
+        "poeta": "Mc Maha",
+        "youtubeId": "r8Uti_Q-jRk",
+        "startTime": 25
+   },
+   {
+      "estrofe": "E ela me chamou, e falou que gostou e quer mais de novo",
+            "poesia": "Sentou e gostou",
+            "poeta": "Mc Jottapê e MC MD10",
+            "youtubeId": "p86_Aj8x014",
+            "startTime": 00
     },
     {
         "estrofe": "Não adianta tu se declarar, romance e compromisso comigo não rola",
@@ -1006,5 +1076,103 @@
         "poeta": "MC Kevin",
         "youtubeId": "s2wRWUclHws",
         "startTime": 15
+    },
+    {
+        "estrofe": "Namorar não da, namorada não, Meu coração quer ela mas meu pau quer um montão",
+        "poesia": "Namorar não da",
+        "poeta" : "Mc Kevin O Chris",
+        "youtubeId": "HK-EFSMpJyM",
+        "startTime" : "22"
+    },  
+    {
+        "estrofe": "Desculpa falar, mas tem outras querendo sentar",
+        "poesia": "Uma Nora pra Cada Dia",
+        "poeta": "Mc Kevinho",
+        "youtubeId": "hmgsrKYBpLo",
+        "startTime": 10
+    },
+    {
+        "estrofe": "Bico fez discordia: “cheio de tattoo, neguim? Acha que pode ser quem?”",
+        "poesia": "Chorar Pra Que",
+        "poeta": "Mc Charada",
+        "youtubeId": "qd6qrh1AwKI",
+        "startTime": 32
+    },
+    {
+        "estrofe": "Gosto de tocar o terror pra te ver perdendo a linha teu sossego acabou",
+        "poesia": "Terremoto",
+        "poeta": "Anitta e Kevinho",
+        "youtubeId": "O65FBF9RamQ",
+        "startTime": 48
+    },
+    {
+         "estrofe": "Não adianta tu se declarar, romance e compromisso comigo não rola",
+         "poesia": "Te Amo Sem Compromisso",
+         "poeta": "Mc Doni",
+         "youtubeId": "zEE77Flhr9Y",
+         "startTime": 16
+    },
+    {
+          "estrofe": "Senta aqui vai, senta aqui vai, senta aqui vai. Na ponto 30 do papai",
+          "poesia": "Ponto 30",
+          "poeta": "Mc Menor da VG",
+          "youtubeId": "HyXH-6O3X18",
+          "startTime": 15
+    },
+    {
+          "estrofe": "O Henrique passou bolado com duas tchuca na garupa",
+          "poesia": "Garupa 2",
+          "poeta": "MC Nando e MC Luanzinho",
+          "youtubeId": "MXQ8ehy8wRg",
+          "startTime": 50
+    },
+    {
+          "estrofe": "Do tamborzão que te faz mexer",
+          "poesia": "Evoluiu",
+          "poeta": "Kevin o Chris",
+          "youtubeId": "PSemE5kM1Yw",
+          "startTime": 15
+    },
+    {
+          "estrofe": "É tudo que eu sempre quis",
+          "poesia": "Bumbum Granada",
+          "poeta": "Mc Menor da VG",
+          "youtubeId": "EWcOY14GWwM",
+          "startTime": 53
+    },
+    {
+          "estrofe": "Vem mua mua mua, vem mamando eu",
+          "poesia": "Vem mua mua mua",
+          "poeta": "MC Gorilla",
+          "youtubeId": "GaJtPVlhhxs",
+          "startTime": 1     
+    },
+    {
+          "estrofe": "Moça, eu não quero me meter na relação. Mas não vale a pena dar moral pra vacilão",
+          "poesia": "Ponto 30",
+          "poeta": "MC Du Black",
+          "youtubeId": "VvkV_ZxwOig',
+          "startTime": 29
+    },
+    {
+          "estrofe": "A ingratidão é virtude dos fracos. Eu não sou daqueles que cospe no prato",
+          "poesia": "Positividade",
+          "poeta": "MC Bola e MC Magal",
+          "youtubeId": "TT2-_L06FKc",
+          "startTime": 25
+    },
+    {
+          "estrofe": "Se liga aí, malvada, no que agora eu vou mandar.Um som diferenciado que vai te fazer dançar",
+          "poesia": "Hit Contagiante",
+          "poeta": "MC Kevin o Chris",
+          "youtubeId": "BhreyKH8b6Y",
+          "startTime": 15
+    },
+    {
+          "estrofe": "Falou que quer meu coração. Parece que tá xonadão",
+          "poesia": "Xonadão",
+          "poeta": "Loma e as Gêmeas Lacração",
+          "youtubeId": "WMBe4G-7KwU",
+          "startTime": 31
     }
 ]
