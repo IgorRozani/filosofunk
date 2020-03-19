@@ -154,7 +154,7 @@ function carregarMusica(youtubeId, startTime) {
 function exibirPoesia(id) {
     location.hash = "#" + id;
     document.getElementById("estrofe").innerText = '"' + poetry.estrofe + '"';
-    document.getElementById("poeta").innerText = poetry.poeta;
+    document.getElementById("poeta").innerText = '-'+ poetry.poeta;
     document.getElementById("poesia").innerText = poetry.poesia;
 
     if (isPlayEnabled)
@@ -167,7 +167,6 @@ function exibirPoesia(id) {
  */
 function declarePoetry() {
     let storage = getStorage();
-
     if (!storage || !storage.length) {
         window.location.reload();
     };
