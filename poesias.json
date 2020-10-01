@@ -1103,8 +1103,8 @@
         "poeta": "Dadá Boladão, Tati Zaqui feat OIK",
         "youtubeId": "vhPhZbO7OXE",
         "startTime": 106
-    },
-    {
+   },
+   {
         "estrofe": "Quem fode fode, quem não fode sai de cima",
         "poesia": "Quem Fode Fode, Quem Não Fode Sai de Cima",
         "poeta": "Mc 7 Belo, Dj Guuga",
@@ -1426,5 +1426,19 @@
         "poeta": "Mc Teteu",
         "youtubeId": "N57_Gsutg-I",
         "startTime": 50
+    },
+    {
+        "estrofe": "Não adianta tu se declarar, romance e compromisso comigo não rola",
+        "poesia": "Te Amo Sem Compromisso",
+        "poeta": "Mc Doni",
+        "youtubeId": "zEE77Flhr9Y",
+        "startTime": 16
+    },
+    {
+        "estrofe": "Pa Pa Pa Pa Pa Pa Pa Pa",
+        "poesia": "Desce Pro Play",
+        "poeta": "Mc Zaac, Anitta, Tyga",
+        "youtubeId": "OEtZ4eE3bA0",
+        "startTime": "02"
     }
 ]
