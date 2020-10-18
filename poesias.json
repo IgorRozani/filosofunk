@@ -1,4 +1,4 @@
-[   
+[
     {
         "estrofe": "Vem chupando no talento meu grelinho de diamante. Vai, vai",
         "poesia": "Grelinho de Diamante",
@@ -1076,7 +1076,6 @@
         "poeta": "Mc Pedrinho",
         "youtubeId": "Kv2TnMowhh8",
         "startTime": 24
-
     },
     {
         "estrofe": "O seu coração não faz tum tum, agora ela só bate com o bumbum",
@@ -1429,11 +1428,11 @@
         "startTime": 15
     },
     {
-      "estrofe": "Eu vou cortar você na mão, Vou mostrar que eu sou tigrão, Vou te dar muita pressão",
-      "poesia": "Vou te dar muita pressão",
-      "poeta": "Bonde do Tigrão",
-      "youtubeId": "Zqx4nLLiuag",
-      "startTime": 35
+        "estrofe": "Eu vou cortar você na mão, Vou mostrar que eu sou tigrão, Vou te dar muita pressão",
+        "poesia": "Vou te dar muita pressão",
+        "poeta": "Bonde do Tigrão",
+        "youtubeId": "Zqx4nLLiuag",
+        "startTime": 35
     },
     {
         "estrofe": "Água, coca, latão, água, coca, latããããoo!",
@@ -1498,7 +1497,7 @@
         "youtubeId": "wInMHAgrF-c",
         "startTime": 51
     },
-    { 
+    {
         "estrofe": "Eu sei que eu não sou teu dono mas tu tá na minha mão",
         "poesia": "Oh Juliana",
         "poeta": "MC Niack",
@@ -1508,7 +1507,7 @@
     {
         "estrofe": "Oba, oba, oba, vamos todos bailar! Bailar, bailar, bailar, oba, oba, oba",
         "poesia": "Ines Brasil oba oba",
-        "poeta": "Inês Brasil",
+        "poeta": "Inês Brasil",
         "youtubeId": "alS4oaHFw6E",
         "startTime": 12
     },
@@ -1518,5 +1517,12 @@
         "poeta": "Tati Quebra Barraco",
         "youtubeId": "ZIH8c0X_GPE",
         "startTime": 13
+    },
+    {
+        "estrofe": "Sou eu, sou o MC Maha, hashira da madeira, concentração total, respiração pau na buceta",
+        "poesia": "Eu Kimetsu No Seu Rayba",
+        "poeta": "Mc Maha",
+        "youtubeId": "ubvsV93Eg68",
+        "startTime": 29
     }
 ]
