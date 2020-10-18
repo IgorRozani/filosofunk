@@ -1,10 +1,4 @@
-[   {
-    "estrofe": "Dakoo é bom, dakoo é bom, calma minha gente é só a marca do fogão...",
-    "poesia": "Dako é bom",
-    "poeta": "Tati Quebra Barraco",
-    "youtubeId": "ZIH8c0X_GPE",
-    "startTime": 13
-    },
+[   
     {
         "estrofe": "Vem chupando no talento meu grelinho de diamante. Vai, vai",
         "poesia": "Grelinho de Diamante",
@@ -1510,5 +1504,19 @@
         "poeta": "MC Niack",
         "youtubeId": "Tun92VU2OkU",
         "startTime": 4
+    },
+    {
+        "estrofe": "Oba, oba, oba, vamos todos bailar! Bailar, bailar, bailar, oba, oba, oba",
+        "poesia": "Ines Brasil oba oba",
+        "poeta": "Inês Brasil",
+        "youtubeId": "alS4oaHFw6E",
+        "startTime": 12
+    },
+    {
+        "estrofe": "Dakoo é bom, dakoo é bom, calma minha gente é só a marca do fogão...",
+        "poesia": "Dako é bom",
+        "poeta": "Tati Quebra Barraco",
+        "youtubeId": "ZIH8c0X_GPE",
+        "startTime": 13
     }
 ]
