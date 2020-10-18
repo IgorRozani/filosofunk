@@ -1,10 +1,4 @@
-[   {
-    "estrofe": "Oba, oba, oba, vamos todos bailar! Bailar, bailar, bailar, oba, oba, oba",
-    "poesia": "Ines Brasil oba oba",
-    "poeta": "Inês Brasil",
-    "youtubeId": "alS4oaHFw6E",
-    "startTime": 12
-    },
+[   
     {
         "estrofe": "Vem chupando no talento meu grelinho de diamante. Vai, vai",
         "poesia": "Grelinho de Diamante",
@@ -501,6 +495,13 @@
         "poeta": "Mc Souza",
         "youtubeId": "QsSK6pC5lS0",
         "startTime": 15
+    },
+    {
+        "estrofe": "O helipa é baile de favela",
+        "poesia": "Baile de favela",
+        "poeta": "Mc João",
+        "youtubeId": "kzOkza_u3Z8",
+        "startTime": 22
     },
     {
         "estrofe": "Porque eu sou o zika virus e vou picar tua ppk",
@@ -1454,5 +1455,68 @@
         "poeta": "Ludmilla",
         "youtubeId": "a-kSUQBKgSM",
         "startTime": 33
+    },
+    {
+        "estrofe": "Obrigado Deus pelo pão de cada dia, Obrigado Deus pela saúde e a família, Obrigado Deus pelo dia de vida, Peço que me olhe, Que todos os seus anjos me guia",
+        "poesia": "Obrigado Deus",
+        "poeta": "Mc Paulin da Capital & MC Lipi",
+        "youtubeId": "7lP_hBEn-tM",
+        "startTime": 46
+    },
+    {
+        "estrofe": "Eu peço pro juiz para não me julgar, porque na hora da pancada, não tava no meu lugar",
+        "poesia": "Aguas Sujas, Aguas Limpas",
+        "poeta": "Mc Zoi de Gato",
+        "youtubeId": "GcP6Ttul13E",
+        "startTime": 94
+    },
+    {
+        "estrofe": "Sempre com a missão, que será cumprida, de fazer o bem, nunca o mal e andar de cabeça erguida",
+        "poesia": "15 linhas",
+        "poeta": "Mc Lon",
+        "youtubeId": "cO42kaEvJmA",
+        "startTime": 37
+    },
+    {
+        "estrofe": "O homem que inventou as grades, não sabe o que é saudade",
+        "poesia": "Heróis da favela",
+        "poeta": "Mc Daleste",
+        "youtubeId": "34E01SAG-9o",
+        "startTime": 48
+    },
+    {
+        "estrofe": "Foi dias e noites, lutando e lutando, mas tudo o que tenho com dignidade",
+        "poesia": "Mãe de traficante",
+        "poeta": "Mc Daleste",
+        "youtubeId": "uiNQCYA5u8s",
+        "startTime": 37
+    },
+    {
+        "estrofe": "E nesse filme, a bala não é de festim e dependendo de onde afetar, tú não levanta mais do chão",
+        "poesia": "Bonde da tony country",
+        "poeta": "Mc Felipe Boladão",
+        "youtubeId": "wInMHAgrF-c",
+        "startTime": 51
+    },
+    { 
+        "estrofe": "Eu sei que eu não sou teu dono mas tu tá na minha mão",
+        "poesia": "Oh Juliana",
+        "poeta": "MC Niack",
+        "youtubeId": "Tun92VU2OkU",
+        "startTime": 4
+    },
+    {
+        "estrofe": "Oba, oba, oba, vamos todos bailar! Bailar, bailar, bailar, oba, oba, oba",
+        "poesia": "Ines Brasil oba oba",
+        "poeta": "Inês Brasil",
+        "youtubeId": "alS4oaHFw6E",
+        "startTime": 12
+    },
+    {
+        "estrofe": "Dakoo é bom, dakoo é bom, calma minha gente é só a marca do fogão...",
+        "poesia": "Dako é bom",
+        "poeta": "Tati Quebra Barraco",
+        "youtubeId": "ZIH8c0X_GPE",
+        "startTime": 13
     }
 ]
