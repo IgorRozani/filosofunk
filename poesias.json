@@ -1496,9 +1496,6 @@
         "poeta": "Mc Felipe Boladão",
         "youtubeId": "wInMHAgrF-c",
         "startTime": 51
-<<<<<<< HEAD
-    }
-=======
     },
     {
         "estrofe": "Eu sei que eu não sou teu dono mas tu tá na minha mão",
@@ -1571,25 +1568,59 @@
         "startTime": 40
   },
   {
+        "estrofe": "Então martela, martela, martela o martelão",
+        "poesia": "Cerol Na Mão",
+        "poeta": "Bonde do Tigrão",
+        "youtubeId": "PA49hJlKRVo",
+        "startTime": 37
+  },
+  {
+        "estrofe": "Se ela dança, eu danço",
+        "poesia": "Se ela dança, eu danço",
+        "poeta": "Mc Leozinho",
+        "youtubeId": "4Grv724IpJk",
+        "startTime": 15
+  },
+  {
+        "estrofe": "Abriu a janela viu o sol nascer. E pensou consigo “hoje vou vencer",
+        "poesia": "Permissão de Deus",
+        "poeta": "MC Gordão",
+        "youtubeId": "6sNeOJ6sTeo",
+        "startTime": 23
+    },
+    {
+        "estrofe": "Aaaaaaaaah lelek lek lek lek lek lek lek lek lek lek",
+        "poesia": "Passinho do Volante",
+        "poeta": "MC Federado e os Leleks",
+        "youtubeId": "vfAxYSPlbHM",
+        "startTime": 0
+    },
+    {
       "estrofe": "E desde já, agradeço a Deus, por ter minha família hoje perto de mim",
       "poesia": "Dia de visita",
       "poeta": "Mc Daleste",
       "youtubeId": "uI470e68vmk",
       "startTime": 8
-  },
-  {
+    },
+    {
       "estrofe": "Porque malandro de verdade tem muita fé em Jesus",
       "poesia": "Quero do boldo",
       "poeta": "Mc Felipe Boladão",
       "youtubeId": "X7QXGcSZzCg",
       "startTime": 13
-  },
-  {
+    },
+    {
       "estrofe": "Eu tô convicto acredito que isso vai passar, por mais que a chuva seja forte o Sol há de abrir",
       "poesia": "Favela pede paz",
       "poeta": "Mc Hariel & Mc Neguinho do Kaxeta & Lele JP",
       "youtubeId": "55pcGHHssQY",
       "startTime": 19
-  }
->>>>>>> dff977ca455a041437fd88a8530cb779f244de1f
+    },
+  {
+        "estrofe": "Espetacular o sorrido dessa princesa",
+        "poesia": "Sapeca anos 80",
+        "poeta": "MC Jhey",
+        "youtubeId": "QeJoKPI3kF4",
+        "startTime": 0
+    },
 ]
