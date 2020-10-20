@@ -1573,7 +1573,7 @@
         "poeta": "Bonde do Tigrão",
         "youtubeId": "PA49hJlKRVo",
         "startTime": 37
-  }
+  },
   {
         "estrofe": "Se ela dança, eu danço",
         "poesia": "Se ela dança, eu danço",
@@ -1587,5 +1587,12 @@
         "poeta": "MC Gordão",
         "youtubeId": "6sNeOJ6sTeo",
         "startTime": 23
+    },
+    {
+        "estrofe": "Aaaaaaaaah lelek lek lek lek lek lek lek lek lek lek",
+        "poesia": "Passinho do Volante",
+        "poeta": "MC Federado e os Leleks",
+        "youtubeId": "vfAxYSPlbHM",
+        "startTime": 0
     }
 ]
