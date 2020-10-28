@@ -16,8 +16,10 @@ As frases estão armazenadas no arquivo [poesias.json](https://github.com/IgorRo
         "estrofe": "Um pente é pente",
         "poesia": "É o pente",
         "poeta": "Os Hawaianos",
-        "youtubeId": "dEh3dJORNU4",
-        "startTime": "36"
+        "youtube": {
+                "youtubeId": "dEh3dJORNU4",
+                "startTime": "36"
+        }
 }
 ```
 Os campos são os seguintes:
