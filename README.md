@@ -1,7 +1,7 @@
 # Filosofunk [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 Lindas frases para aquecer os corações
 
-![Screenshot](img/screenshot.PNG?raw=true "Screenshot")
+![Screenshot](img/new_screenshot.png?raw=true "Screenshot")
 
 Para ver o projeto rodando: http://filosofunk.com.br/
 
