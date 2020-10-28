@@ -1,7 +1,7 @@
 # Filosofunk [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-Lindas frases para aquecer os corações
+Lindas frases para aquecer os corações.
 
-![Screenshot](img/screenshot.PNG?raw=true "Screenshot")
+![Screenshot](img/new_screenshot.png?raw=true "Screenshot")
 
 Para ver o projeto rodando: http://filosofunk.com.br/
 
@@ -16,8 +16,10 @@ As frases estão armazenadas no arquivo [poesias.json](https://github.com/IgorRo
         "estrofe": "Um pente é pente",
         "poesia": "É o pente",
         "poeta": "Os Hawaianos",
-        "youtubeId": "dEh3dJORNU4",
-        "startTime": "36"
+        "youtube": {
+                "youtubeId": "dEh3dJORNU4",
+                "startTime": "36"
+        }
 }
 ```
 Os campos são os seguintes:

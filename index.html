@@ -84,12 +84,19 @@
 	<iframe class="audio" width="0" height="0" id="musica" src="" frameborder="0" allow="autoplay; encrypted-media"></iframe>
 
 	<div class="container">
-		<p class="titulo">Trecho de "<span id="poesia"></span>"</p>
+		<!-- Comente a linha abaixo para habilitar que nome da música leve para o youtube; -->
+		<p class="titulo">Trecho de "<span class="button" id="poesia"></span>"</p>
+
+		<!-- Remova o comentário da linha abaixo para habilitar que nome da música leve para o youtube; -->
+		<!-- <p class="titulo">Trecho de "<a href="" id="ytb-link" class="button b-links" target="_blank"><span id="poesia"></span></a>"</p> -->
+
 		<blockquote id="estrofe"></blockquote>
 		<p class="poeta" id="poeta"></p>
 
 		<div class="button-group">
-			<a href="#" class="declare-button button">Declamar outra poesia</a>
+			<div class="b-links-align">
+				<a href="#" class="declare-button button b-links-declare">Declamar outra poesia</a>
+			</div>
 
 			<div>
 				<button id="btn-play" class="btn btn-danger" disabled>
@@ -135,7 +142,7 @@
 			</div>
 		</div>
 
-		<p class="help-us">Conhece alguma frase que não está aqui? <a href="https://github.com/IgorRozani/filosofunk" target="_blank">Envie
+		<p class="help-us">Conhece alguma frase que não está aqui? <a href="https://github.com/IgorRozani/filosofunk" target="_blank" class="b-links">Envie
 				sua frase em nosso GitHub.</a></p>
 		<img src="./img/mascote.png" class="mascote" alt="mascote filosofunk">
 	</div>
