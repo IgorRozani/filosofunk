@@ -1799,12 +1799,6 @@
         "startTime": 14
     },
     {
-        "estrofe": "Quando estava triste o meu coração, eu fui para um canto e fiz essa canção",
-        "poesia": "Rap do solitário",
-        "poeta": "MC Marcinho",
-        "youtubeId": "6YkW6QCap_w",
-        "startTime": 25
-    },
         "estrofe": "Vem no agachamento, desce, desce, ahn",
         "poesia": "Toma",
         "poeta": "Luisa Sonza, MC Zaac",
@@ -1832,13 +1826,19 @@
         "youtubeId": "bvrte2Oyf6o",
         "startTime": 36
     },
-
     {
         "estrofe": "Vai contraindo, contraindo, vai contraindo, contraindo",
         "poesia": "Ritmo Mexicano",
         "poeta": "MC GW",
         "youtubeId": "iuUWf9Vz1V4",
         "startTime": 50
+    },
+    {
+        "estrofe": "Quando estava triste o meu coração, eu fui para um canto e fiz essa canção",
+        "poesia": "Rap do solitário",
+        "poeta": "MC Marcinho",
+        "youtubeId": "6YkW6QCap_w",
+        "startTime": 25
     }
 
 
