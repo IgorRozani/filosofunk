@@ -1,115 +1,166 @@
 body {
-    background-color: #fff;
-    background-image: linear-gradient(90deg, transparent 59px, rgb(240,70,79) 59px, rgb(240,70,79) 61px, transparent 61px), linear-gradient(#eee .1em, transparent .1em);
-    background-size: 100% 1.2em;
-    font-family: 'Dancing Script', Georgia, Times, serif;
+  background-color: #fff;
+  background-image: linear-gradient(
+      90deg,
+      transparent 59px,
+      rgb(240, 70, 79) 59px,
+      rgb(240, 70, 79) 61px,
+      transparent 61px
+    ),
+    linear-gradient(#eee 0.1em, transparent 0.1em);
+  background-size: 100% 1.2em;
+  font-family: "Dancing Script", Georgia, Times, serif;
 }
 
-header{
-    text-align: center;
+header {
+  text-align: center;
 }
 
 header h1 {
-    font-size: 50px;
-    padding: 0px;
-    margin: 0px;
-    color:rgb(240,50,50);
+  font-size: 50px;
+  padding: 0px;
+  margin: 0px;
+  color: rgb(240, 50, 50);
 }
 
-header h6{
-    font-size: 25px;
-    margin-top: 0px;
-    color:rgb(240,50,50);
+header h6 {
+  font-size: 25px;
+  margin-top: 0px;
+  color: rgb(240, 50, 50);
 }
 
 blockquote {
-    font-size: 59px;
-    line-height: 60px;
-    padding-left: 50px;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 0px;
+  font-size: 59px;
+  line-height: 60px;
+  padding-left: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 
 a {
-    color: rgb(70,81,206);
-    text-decoration: none;
+  color: rgb(70, 81, 206);
+  text-decoration: none;
+}
+
+a.b-links, a.b-links-declare {
+  color: rgba(70, 81, 206);
+  text-decoration: none;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 250)),
+    linear-gradient(rgba(70, 81, 206), rgba(70, 81, 200));
+  background-size: 50% 2px, 0 2px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 300ms linear;
+}
+
+a.b-links:hover {
+  background-size: 0 2px, 100% 2px;
+}
+
+a.b-links-declare:hover {
+  background-size: 0 2px, 73% 2px;
+}
+
+.container .button-group div.b-links-align{
+  text-align: left;
 }
 
 .container .button-group {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .container .button-group div {
-    text-align: right;
+  text-align: right;
 }
 
-.container .button-group div, .container .button-group a {
-    width: 40%;
+.container .button-group div,
+.container .button-group a {
+  width: 50%;
+}
+
+.container .button-group div, .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px 0 0;
+}
+
+.container .button-group div button {
+  margin: 0 10px 0 0;
 }
 
 .audio {
-    display: none;
+  display: none;
 }
 
 .container {
-    position: relative;
+  position: relative;
+}
+
+p #poesia {
+  color: rgb(240, 50, 50);
 }
 
 p.titulo {
-    padding-left: 80px;
-    font-size: 30px;
+  padding-left: 80px;
+  font-size: 30px;
 }
 
 p.poeta {
-    padding-left: 80px;
-    margin-right: 100px;
-    margin-top: 15px;
-    font-size: 30px;
-    text-align: right;
+  padding-left: 80px;
+  margin-right: 100px;
+  margin-top: 15px;
+  font-size: 30px;
+  text-align: right;
 }
 
 p.help-us {
-    text-align: center;
-    font-size: 25px;
+  text-align: center;
+  font-size: 25px;
 }
 
 .button {
-    
-    background-color: transparent;
-    border: none;
-    font-weight: bold;
-    text-align: left;
-    display: inline-block;
-    font-size: 30px;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  text-align: left;
+  display: inline-block;
+  font-size: 30px;
 }
 
 .share {
-    margin-top:20px;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .share .item {
-    padding: 10px;
+  padding: 10px;
 }
 
 .share .item a {
   font-size: 0;
 }
 
+.share .item:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  transition: 300ms;
+}
+
 .mascote {
-    opacity:0.2;
-    position:absolute;
-    right:0;
-    bottom:0;
-    max-height: 60%;
-    max-width: 60%;
-    z-index: -1;
+  opacity: 0.2;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-height: 60%;
+  max-width: 60%;
+  z-index: -1;
 }
 
 .btn {
@@ -127,8 +178,8 @@ p.help-us {
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .btn-danger {
@@ -143,17 +194,20 @@ p.help-us {
   border-color: #bd2130;
 }
 
-.btn-danger:focus, .btn-danger.focus {
+.btn-danger:focus,
+.btn-danger.focus {
   box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
 }
 
-.btn-danger.disabled, .btn-danger:disabled {
+.btn-danger.disabled,
+.btn-danger:disabled {
   color: #fff;
   background-color: #dc3545;
   border-color: #dc3545;
 }
 
-.btn.disabled, .btn:disabled {
+.btn.disabled,
+.btn:disabled {
   opacity: 0.65;
 }
 
@@ -161,37 +215,47 @@ p.help-us {
   cursor: pointer;
 }
 
-.btn-danger.disabled, .btn-danger:disabled {
+.btn-danger.disabled,
+.btn-danger:disabled {
   color: #fff;
   background-color: #dc3545;
   border-color: #dc3545;
 }
 
-.btn-danger:not(:disabled):not(.disabled):active, .btn-danger:not(:disabled):not(.disabled).active,
+.btn-danger:not(:disabled):not(.disabled):active,
+.btn-danger:not(:disabled):not(.disabled).active,
 .show > .btn-danger.dropdown-toggle {
   color: #fff;
   background-color: #bd2130;
   border-color: #b21f2d;
 }
 
-.btn-danger:not(:disabled):not(.disabled):active:focus, .btn-danger:not(:disabled):not(.disabled).active:focus,
+.btn-danger:not(:disabled):not(.disabled):active:focus,
+.btn-danger:not(:disabled):not(.disabled).active:focus,
 .show > .btn-danger.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
 }
 
 @media screen and (max-width: 770px) {
   body {
-    background-image: linear-gradient(90deg, transparent 29px, rgb(240,70,79) 29px, rgb(240,70,79) 31px, transparent 31px), linear-gradient(#eee .1em, transparent .1em);
+    background-image: linear-gradient(
+        90deg,
+        transparent 29px,
+        rgb(240, 70, 79) 29px,
+        rgb(240, 70, 79) 31px,
+        transparent 31px
+      ),
+      linear-gradient(#eee 0.1em, transparent 0.1em);
   }
   header {
     padding: 0 0 0 28px;
   }
   p.help-us {
     padding: 0 22px;
-  }  
+  }
 }
 @media screen and (max-width: 480px) {
   .share {
     flex-direction: column;
-  }  
+  }
 }
