@@ -23,7 +23,7 @@ As frases estão armazenadas no arquivo [poesias.json](https://github.com/IgorRo
 Os campos são os seguintes:
 - estrofe: trecho da música;
 - poesia: nome da música;
-- poeta: nome do cantor(a) ou grupo. Caso seja mais de um cantor(a), utilizar o & entre os nomes. Exemplo: Pikeno & Menor;
+- poeta: nome do cantor(a) ou grupo;
 - youtubeId: id do vídeo no youtube;
 - startTime: tempo do vídeo que ocorre pela primeira vez o trecho.
 
