@@ -151,6 +151,7 @@ function ready(fn) {
       "?loop=1&autoplay=1&start=" +
       startTime;
     document.getElementById("musica").src = src;
+    document.getElementById("ytb-link").href = src;
   
     // Remova os comentários das linhas abaixo para habilitar que nome da música leve para o youtube;
     //   var ytb_link =
@@ -158,7 +159,7 @@ function ready(fn) {
     //     youtubeId +
     //     "?autoplay=1&start=" +
     //     startTime;
-    //   document.getElementById("ytb-link").href = ytb_link;
+      
   }
   
   /**
@@ -168,12 +169,15 @@ function ready(fn) {
    */
   function exibirPoesia(id) {
     location.hash = "#" + id;
-    document.getElementById("estrofe").innerText = '"' + poetry.estrofe + '"';
-    document.getElementById("poeta").innerText = "-" + poetry.poeta;
+    document.getElementById("estrofe").innerText = `"${poetry.estrofe}"`;
+    document.getElementById("poeta").innerText = `-${poetry.poeta}`;
     document.getElementById("poesia").innerText = poetry.poesia;
+
+    var conteudo = encodeURIComponent(`"${poetry.estrofe}" - ${poetry.poeta} ${window.location.href}`);
+    document.getElementById("whatsapp-share-btt").href = "https://api.whatsapp.com/send?text=" + conteudo;
   
     if (isPlayEnabled)
-      carregarMusica(poetry.youtube.youtubeId, poetry.youtube.startTime);
+      carregarMusica(poetry.youtube.id, poetry.youtube.startTime);
   }
   
   /**
@@ -209,7 +213,7 @@ function ready(fn) {
    * @return void
    */
   function playYoutube() {
-    carregarMusica(poetry.youtube.youtubeId, poetry.youtube.startTime);
+    carregarMusica(poetry.youtube.id, poetry.youtube.startTime);
   
     isPlayEnabled = true;
     VisibilityAudioButtons();
