@@ -1,0 +1,53 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "lança a brava",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancelar"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "ajuda",
+            "me ajuda",
+            "socorro",
+            "me ajuda luciano"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "sair",
+            "fechar",
+            "parar"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": [
+            "inicio",
+            "tela inicial"
+          ]
+        },
+        {
+          "name": "DeclamarFunkIntent",
+          "slots": [],
+          "samples": [
+            "declamar funk",
+            "declamar",
+            "falar funk",
+            "falar",
+            "cantar",
+            "cantar funk"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "23"
+}
