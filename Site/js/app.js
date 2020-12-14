@@ -128,7 +128,7 @@ function setPoetry(data, id) {
  */
 async function getPoetry(id) {
   try {
-    let response = await fetch("poesias.json");
+    let response = await fetch("../poesias.json");
     if (response.status === 200) {
       let data = await response.json();
       setPoetry(data, id);
