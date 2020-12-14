@@ -117,7 +117,7 @@ function setPoetry(data, id) {
 
   let index = id || getIndex(storage);
   poetry = data[index];
-  exibirPoesia(index);
+  showPoetry(index);
   setStorage(storage);
 }
 
@@ -161,17 +161,28 @@ function carregarMusica(youtubeId, startTime) {
  * @param id - Id da música
  * @return void
  */
-function exibirPoesia(id) {
+function showPoetry(id) {
   location.hash = "#" + id;
   document.getElementById("estrofe").innerText = `"${poetry.estrofe}"`;
   document.getElementById("poeta").innerText = `-${poetry.poeta}`;
   document.getElementById("poesia").innerText = poetry.poesia;
 
-  const conteudo = encodeURIComponent(`"${poetry.estrofe}" - ${poetry.poeta} ${window.location.href}`);
-  document.getElementById("whatsapp-share-btt").href = "https://api.whatsapp.com/send?text=" + conteudo;
+  updateShareButtons(poetry);
 
   if (isPlayEnabled)
     carregarMusica(poetry.youtube.id, poetry.youtube.startTime);
+}
+
+/**
+* Atualiza os links dos botões de share
+* @param poetry - Poesia
+*/
+function updateShareButtons(poetry){
+  const whatsappContent = encodeURIComponent(`"${poetry.estrofe}" - ${poetry.poeta} ${window.location.href}`);
+  document.getElementById("whatsapp-button").href = "https://api.whatsapp.com/send?text=" + whatsappContent;
+
+  const twitterContent = encodeURIComponent(`"${poetry.estrofe}" - ${poetry.poeta} ${window.location.href} #filosofunk`);
+  document.getElementById("twitter-button").href = "https://twitter.com/intent/tweet?text=" + twitterContent;
 }
 
 /**
@@ -186,7 +197,7 @@ function declarePoetry() {
 
   let index = getIndex(storage);
   poetry = poetryCollection[index];
-  exibirPoesia(index);
+  showPoetry(index);
 
   setStorage(storage);
 }
@@ -199,7 +210,7 @@ function stopYoutube() {
   document.getElementById("musica").src = "";
 
   isPlayEnabled = false;
-  VisibilityAudioButtons();
+  visibilityAudioButtons();
 }
 
 /**
@@ -210,14 +221,14 @@ function playYoutube() {
   carregarMusica(poetry.youtube.id, poetry.youtube.startTime);
 
   isPlayEnabled = true;
-  VisibilityAudioButtons();
+  visibilityAudioButtons();
 }
 
 /**
  * Modifica habilita e desabilita os botões de audio
  * @return void
  */
-function VisibilityAudioButtons() {
+function visibilityAudioButtons() {
   document.getElementById("btn-stop").disabled = !isPlayEnabled;
   document.getElementById("btn-play").disabled = isPlayEnabled;
 }
