@@ -3,11 +3,11 @@
  * @return void
  */
 function ready(fn) {
-    if (document.readyState != 'loading') {
-        fn();
-    } else {
-        document.addEventListener('DOMContentLoaded', fn);
-    }
+  if (document.readyState != "loading") {
+    fn();
+  } else {
+    document.addEventListener("DOMContentLoaded", fn);
+  }
 }
 
 ready(onReady);
@@ -17,35 +17,38 @@ ready(onReady);
  * @return void
  */
 function onReady() {
-    if(!location.hash){
+  if (!location.hash) {
+    getPoetry();
+  } else {
+    getPoetry(window.location.hash.substring(1));
+  }
+
+  window.addEventListener(
+    "hashchange",
+    (evt) => {
+      if (!location.hash) {
         getPoetry();
-    }else{
+      } else {
         getPoetry(window.location.hash.substring(1));
-    }
+      }
+    },
+    false
+  );
 
-    window.addEventListener("hashchange", (evt) =>{
-        if(!location.hash){
-            getPoetry();
-        }else{
-            getPoetry(window.location.hash.substring(1));
-        }
-    }, false);
+  document.querySelector(".declare-button").addEventListener("click", (evt) => {
+    evt.preventDefault();
+    declarePoetry();
+  });
 
-    document.querySelector('.declare-button').addEventListener('click', (evt) => {
-        evt.preventDefault();
-        declarePoetry();
-    });
+  document.getElementById("btn-stop").addEventListener("click", (evt) => {
+    evt.preventDefault();
+    stopYoutube();
+  });
 
-
-    document.getElementById('btn-stop').addEventListener('click', (evt) => {
-        evt.preventDefault();
-        stopYoutube();
-    });
-
-    document.getElementById('btn-play').addEventListener('click', (evt) => {
-        evt.preventDefault();
-        playYoutube();
-    });
+  document.getElementById("btn-play").addEventListener("click", (evt) => {
+    evt.preventDefault();
+    playYoutube();
+  });
 }
 
 /**
@@ -54,7 +57,7 @@ function onReady() {
  * @return number
  */
 function randomNumber(totalelements) {
-    return Math.floor(Math.random() * totalelements);
+  return Math.floor(Math.random() * totalelements);
 }
 
 /**
@@ -62,7 +65,7 @@ function randomNumber(totalelements) {
  * @param data - dados a ser salvo no localStorage
  */
 function setStorage(data) {
-    localStorage.setItem('shuffle', JSON.stringify(data));
+  localStorage.setItem("shuffle", JSON.stringify(data));
 }
 
 /**
@@ -70,7 +73,7 @@ function setStorage(data) {
  * @return object
  */
 function getStorage() {
-    return JSON.parse(localStorage.getItem('shuffle'));
+  return JSON.parse(localStorage.getItem("shuffle"));
 }
 
 /**
@@ -79,7 +82,7 @@ function getStorage() {
  * @return number
  */
 function getIndex(storageData) {
-    return storageData.shift() || 0;
+  return storageData.shift() || 0;
 }
 
 let poetryCollection, poetry;
@@ -92,30 +95,30 @@ let isPlayEnabled = true;
  * @return void
  */
 function setPoetry(data, id) {
-    let storage = getStorage();
+  let storage = getStorage();
 
-    poetryCollection = data;
+  poetryCollection = data;
 
-    if (!storage || !storage.length) {
-        let total = data.length;
-        let shuffle = [];
+  if (!storage || !storage.length) {
+    let total = data.length;
+    let shuffle = [];
 
-        for (let i = 0; i < total;) {
-            let key = randomNumber(total);
+    for (let i = 0; i < total;) {
+      let key = randomNumber(total);
 
-            if (!shuffle[key]) {
-                shuffle[key] = i;
-                i++;
-            }
-        }
-
-        storage = shuffle;
+      if (!shuffle[key]) {
+        shuffle[key] = i;
+        i++;
+      }
     }
 
-    let index = id || getIndex(storage);
-    poetry = data[index];
-    exibirPoesia(index);
-    setStorage(storage);
+    storage = shuffle;
+  }
+
+  let index = id || getIndex(storage);
+  poetry = data[index];
+  showPoetry(index);
+  setStorage(storage);
 }
 
 /**
@@ -124,15 +127,15 @@ function setPoetry(data, id) {
  * @return void
  */
 async function getPoetry(id) {
-    try {
-        let response = await fetch('poesias.json');
-        if (response.status === 200) {
-            let data = await response.json();
-            setPoetry(data,id);
-        }
-    } catch (error) {
-        throw new Error(`Erro ao obter dados do JSON: ${error}`);
+  try {
+    let response = await fetch("../poesias.json");
+    if (response.status === 200) {
+      let data = await response.json();
+      setPoetry(data, id);
     }
+  } catch (error) {
+    throw new Error(`Erro ao obter dados do JSON: ${error}`);
+  }
 }
 
 /**
@@ -142,8 +145,15 @@ async function getPoetry(id) {
  * @return void
  */
 function carregarMusica(youtubeId, startTime) {
-    var src = 'https://www.youtube.com/embed/' + youtubeId + '?loop=1&autoplay=1&start=' + startTime;
-    document.getElementById("musica").src = src;
+  const src =
+    "https://www.youtube.com/embed/" +
+    youtubeId +
+    "?loop=1&autoplay=1&start=" +
+    startTime;
+  document.getElementById("musica").src = src;
+
+  const ytb_link = "https://www.youtube.com/watch?v=" + youtubeId;
+  document.getElementById("ytb-link").href = ytb_link;
 }
 
 /**
@@ -151,14 +161,28 @@ function carregarMusica(youtubeId, startTime) {
  * @param id - Id da música
  * @return void
  */
-function exibirPoesia(id) {
-    location.hash = "#" + id;
-    document.getElementById("estrofe").innerText = '"' + poetry.estrofe + '"';
-    document.getElementById("poeta").innerText = '-'+ poetry.poeta;
-    document.getElementById("poesia").innerText = poetry.poesia;
+function showPoetry(id) {
+  location.hash = "#" + id;
+  document.getElementById("estrofe").innerText = `"${poetry.estrofe}"`;
+  document.getElementById("poeta").innerText = `-${poetry.poeta}`;
+  document.getElementById("poesia").innerText = poetry.poesia;
 
-    if (isPlayEnabled)
-        carregarMusica(poetry.youtubeId, poetry.startTime);
+  updateShareButtons(poetry);
+
+  if (isPlayEnabled)
+    carregarMusica(poetry.youtube.id, poetry.youtube.startTime);
+}
+
+/**
+* Atualiza os links dos botões de share
+* @param poetry - Poesia
+*/
+function updateShareButtons(poetry){
+  const whatsappContent = encodeURIComponent(`"${poetry.estrofe}" - ${poetry.poeta} ${window.location.href}`);
+  document.getElementById("whatsapp-button").href = "https://api.whatsapp.com/send?text=" + whatsappContent;
+
+  const twitterContent = encodeURIComponent(`"${poetry.estrofe}" - ${poetry.poeta} ${window.location.href} #filosofunk`);
+  document.getElementById("twitter-button").href = "https://twitter.com/intent/tweet?text=" + twitterContent;
 }
 
 /**
@@ -166,27 +190,27 @@ function exibirPoesia(id) {
  * @return void
  */
 function declarePoetry() {
-    let storage = getStorage();
-    if (!storage || !storage.length) {
-        window.location.reload();
-    };
-  
-    let index = getIndex(storage);
-    poetry = poetryCollection[index];
-    exibirPoesia(index);
-  
-    setStorage(storage);
+  let storage = getStorage();
+  if (!storage || !storage.length) {
+    window.location.reload();
+  }
+
+  let index = getIndex(storage);
+  poetry = poetryCollection[index];
+  showPoetry(index);
+
+  setStorage(storage);
 }
 
 /**
-* Para de tocar vídeo do youtube
-* @return void
-*/
+ * Para de tocar vídeo do youtube
+ * @return void
+ */
 function stopYoutube() {
-    document.getElementById('musica').src = '';
+  document.getElementById("musica").src = "";
 
-    isPlayEnabled = false;
-    VisibilityAudioButtons();
+  isPlayEnabled = false;
+  visibilityAudioButtons();
 }
 
 /**
@@ -194,17 +218,17 @@ function stopYoutube() {
  * @return void
  */
 function playYoutube() {
-    carregarMusica(poetry.youtubeId, poetry.startTime);
+  carregarMusica(poetry.youtube.id, poetry.youtube.startTime);
 
-    isPlayEnabled = true;
-    VisibilityAudioButtons();
+  isPlayEnabled = true;
+  visibilityAudioButtons();
 }
 
 /**
  * Modifica habilita e desabilita os botões de audio
  * @return void
  */
-function VisibilityAudioButtons() {
-    document.getElementById('btn-stop').disabled = !isPlayEnabled;
-    document.getElementById('btn-play').disabled = isPlayEnabled;
+function visibilityAudioButtons() {
+  document.getElementById("btn-stop").disabled = !isPlayEnabled;
+  document.getElementById("btn-play").disabled = isPlayEnabled;
 }
