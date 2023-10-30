@@ -2290,7 +2290,7 @@
         "startTime": 149
     },
     {
-        "estrofe": "Moleque nervoso, periculoso. Me divertia de montão. Hoje eu parei, mais tá na memória os momentos dessa zoação!",
+         "estrofe": "Moleque nervoso, periculoso. Me divertia de montão. Hoje eu parei, mais tá na memória os momentos dessa zoação!",
          "poesia": "Eu pichava sim",
          "poeta": "MC Papo",
          "youtubeId": "MJi4TCMxOMY",
@@ -2332,10 +2332,17 @@
         "startTime": "12"
      },
      {
-        "estrofe": "pros perreco é tchau, pra inveja é tchau, já fooooi bye bye",
+         "estrofe": "pros perreco é tchau, pra inveja é tchau, já fooooi bye bye",
          "poesia": "pra inveja é tchau",
          "poeta": "Mc Kevin e Mc Davi",
          "youtubeId": "WMCKKUvwBCQ",
          "startTime": 35
+     },
+     {
+        "estrofe": "Safada, vai passando a mão, agacha e vai me mama, me mama, me mama",
+        "poesia": "A caminho do Bega",
+        "poeta": "Mc Dom Lipe",
+        "youtubeId": "szzboy0dXUw",
+        "startTime": 18
      }
 ]
