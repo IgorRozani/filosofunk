@@ -2255,7 +2255,7 @@
         "startTime": 32
     },
     {
-         "estrofe": "Tava querendo rever esse teu pacotão",
+        "estrofe": "Tava querendo rever esse teu pacotão",
         "poesia": "Tá OK",
         "poeta": "Dennis e Kevin O Chris",
         "youtubeId": "aHBW_Nd_z8k",
@@ -2288,5 +2288,12 @@
         "poeta": "Bivolt",
         "youtubeId": "X53QOT_BaG4",
         "startTime": 149
-    }
+    },
+    {
+        "estrofe": "Moleque nervoso, periculoso. Me divertia de montão. Hoje eu parei, mais tá na memória os momentos dessa zoação!",
+         "poesia": "Eu pichava sim",
+         "poeta": "MC Papo",
+         "youtubeId": "MJi4TCMxOMY",
+         "startTime": 60
+     }
 ]
