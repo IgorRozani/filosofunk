@@ -13,13 +13,13 @@ header h1 {
     font-size: 50px;
     padding: 0px;
     margin: 0px;
-    color:rgb(240,50,50);
+    color: #dc3545;
 }
 
 header h6{
     font-size: 25px;
     margin-top: 0px;
-    color:rgb(240,50,50);
+    color: #dc3545;
 }
 
 blockquote {
