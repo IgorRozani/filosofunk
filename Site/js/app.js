@@ -47,6 +47,11 @@ function onReady() {
         playYoutube();
     });
 
+    document.getElementById('btn-youtube').addEventListener('click', (evt) => {
+        evt.preventDefault();
+        abrirYoutube();
+    });
+
     VisibilityAudioButtons();
 }
 
@@ -160,6 +165,7 @@ function exibirPoesia(id) {
     document.getElementById("poeta").innerText = '-'+ poetry.poeta;
     document.getElementById("poesia").innerText = poetry.poesia;
 
+
     if (isPlayEnabled)
         carregarMusica(poetry.youtubeId, poetry.startTime, poetry.endTime || null);
 }
@@ -202,6 +208,15 @@ function playYoutube() {
 
     isPlayEnabled = true;
     VisibilityAudioButtons();
+}
+
+/**
+ * Abre o vídeo da poesia atual no YouTube em nova aba
+ * @return void
+ */
+function abrirYoutube() {
+    var url = 'https://www.youtube.com/watch?v=' + poetry.youtubeId + '&t=' + poetry.startTime + 's';
+    window.open(url, '_blank', 'noopener,noreferrer');
 }
 
 /**

@@ -13,13 +13,13 @@ header h1 {
     font-size: 50px;
     padding: 0px;
     margin: 0px;
-    color:rgb(240,50,50);
+    color: #dc3545;
 }
 
 header h6{
     font-size: 25px;
     margin-top: 0px;
-    color:rgb(240,50,50);
+    color: #dc3545;
 }
 
 blockquote {
@@ -77,13 +77,32 @@ p.help-us {
 }
 
 .button {
-    
+
     background-color: transparent;
     border: none;
     font-weight: bold;
     text-align: left;
     display: inline-block;
     font-size: 30px;
+}
+
+.youtube-link-area {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.youtube-link {
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Dancing Script', Georgia, Times, serif;
+    color: #dc3545;
+    cursor: pointer;
+}
+
+.youtube-link:hover {
+    text-decoration: underline;
 }
 
 .share {
