@@ -77,13 +77,32 @@ p.help-us {
 }
 
 .button {
-    
+
     background-color: transparent;
     border: none;
     font-weight: bold;
     text-align: left;
     display: inline-block;
     font-size: 30px;
+}
+
+.youtube-link-area {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.youtube-link {
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Dancing Script', Georgia, Times, serif;
+    color: #FF0000;
+    cursor: pointer;
+}
+
+.youtube-link:hover {
+    text-decoration: underline;
 }
 
 .share {
