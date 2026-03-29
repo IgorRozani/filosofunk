@@ -98,15 +98,11 @@ function setPoetry(data, id) {
 
     if (!storage || !storage.length) {
         let total = data.length;
-        let shuffle = [];
+        let shuffle = Array.from({length: total}, (_, i) => i);
 
-        for (let i = 0; i < total;) {
-            let key = randomNumber(total);
-
-            if (!shuffle[key]) {
-                shuffle[key] = i;
-                i++;
-            }
+        for (let i = total - 1; i > 0; i--) {
+            let j = Math.floor(Math.random() * (i + 1));
+            [shuffle[i], shuffle[j]] = [shuffle[j], shuffle[i]];
         }
 
         storage = shuffle;
