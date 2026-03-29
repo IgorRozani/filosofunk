@@ -47,7 +47,13 @@ function onReady() {
         playYoutube();
     });
 
+    document.getElementById('btn-copy-link').addEventListener('click', (evt) => {
+        evt.preventDefault();
+        copiarLink();
+    });
+
     VisibilityAudioButtons();
+
 }
 
 /**
@@ -160,12 +166,51 @@ function carregarMusica(youtubeId, startTime, endTime) {
  */
 function exibirPoesia(id) {
     location.hash = "#" + id;
+    document.title = poetry.poesia + ' - Filosofunk';
     document.getElementById("estrofe").innerText = '"' + poetry.estrofe + '"';
     document.getElementById("poeta").innerText = '-'+ poetry.poeta;
     document.getElementById("poesia").innerText = poetry.poesia;
 
+    var btnCopy = document.getElementById('btn-copy-link');
+    if (btnCopy) {
+        btnCopy.innerHTML = '<i class="fa fa-link"></i> Link direto';
+        btnCopy.classList.remove('copiado');
+    }
+
     if (isPlayEnabled)
         carregarMusica(poetry.youtubeId, poetry.startTime, poetry.endTime || null);
+}
+
+/**
+ * Copia o link permanente da poesia atual para o clipboard
+ * @return void
+ */
+function copiarLink() {
+    var url = window.location.href;
+    var btn = document.getElementById('btn-copy-link');
+
+    function confirmarCopia() {
+        btn.innerHTML = '<i class="fa fa-check"></i> Copiado!';
+        btn.classList.add('copiado');
+        setTimeout(function() {
+            btn.innerHTML = '<i class="fa fa-link"></i> Link direto';
+            btn.classList.remove('copiado');
+        }, 2000);
+    }
+
+    if (navigator.clipboard) {
+        navigator.clipboard.writeText(url).then(confirmarCopia);
+    } else {
+        var el = document.createElement('textarea');
+        el.value = url;
+        el.style.position = 'fixed';
+        el.style.opacity = '0';
+        document.body.appendChild(el);
+        el.select();
+        document.execCommand('copy');
+        document.body.removeChild(el);
+        confirmarCopia();
+    }
 }
 
 /**
