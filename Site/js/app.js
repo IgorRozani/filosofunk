@@ -81,7 +81,7 @@ function getStorage() {
  * @return number
  */
 function getIndex(storageData) {
-    return storageData.shift() || 0;
+    return storageData.shift() ?? 0;
 }
 
 let poetryCollection, poetry;
