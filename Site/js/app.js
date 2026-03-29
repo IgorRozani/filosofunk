@@ -124,11 +124,16 @@ function setPoetry(data, id) {
  * @return void
  */
 async function getPoetry(id) {
+    if (poetryCollection) {
+        setPoetry(poetryCollection, id);
+        return;
+    }
+
     try {
         let response = await fetch('poesias.json');
         if (response.status === 200) {
             let data = await response.json();
-            setPoetry(data,id);
+            setPoetry(data, id);
         }
     } catch (error) {
         throw new Error(`Erro ao obter dados do JSON: ${error}`);
