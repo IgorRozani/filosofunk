@@ -159,6 +159,7 @@ function exibirPoesia(id) {
     document.getElementById("estrofe").innerText = '"' + poetry.estrofe + '"';
     document.getElementById("poeta").innerText = '-'+ poetry.poeta;
     document.getElementById("poesia").innerText = poetry.poesia;
+    document.getElementById("btn-youtube").href = 'https://www.youtube.com/watch?v=' + poetry.youtubeId + '&t=' + poetry.startTime + 's';
 
     if (isPlayEnabled)
         carregarMusica(poetry.youtubeId, poetry.startTime, poetry.endTime || null);

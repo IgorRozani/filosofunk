@@ -137,6 +137,18 @@ p.help-us {
   border-color: #dc3545;
 }
 
+.btn-youtube {
+  color: #fff;
+  background-color: #FF0000;
+  border-color: #FF0000;
+}
+
+.btn-youtube:hover {
+  color: #fff;
+  background-color: #cc0000;
+  border-color: #cc0000;
+}
+
 .btn-danger:hover {
   color: #fff;
   background-color: #c82333;
