@@ -46,6 +46,8 @@ function onReady() {
         evt.preventDefault();
         playYoutube();
     });
+
+    VisibilityAudioButtons();
 }
 
 /**
@@ -83,7 +85,7 @@ function getIndex(storageData) {
 }
 
 let poetryCollection, poetry;
-let isPlayEnabled = true;
+let isPlayEnabled = false;
 
 /**
  * Define as poesias no localStorage e exibe na tela
