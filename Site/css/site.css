@@ -86,6 +86,33 @@ p.help-us {
     font-size: 30px;
 }
 
+.permalink-area {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btn-copy-link {
+    background-color: transparent;
+    border: 1px solid rgb(70, 81, 206);
+    color: rgb(70, 81, 206);
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.75rem;
+    font-size: 20px;
+    font-family: 'Dancing Script', Georgia, Times, serif;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.btn-copy-link:hover {
+    background-color: rgb(70, 81, 206);
+    color: #fff;
+}
+
+.btn-copy-link.copiado {
+    border-color: #28a745;
+    color: #28a745;
+}
+
 .share {
     margin-top:20px;
     width: 100%;
