@@ -165,9 +165,35 @@ function exibirPoesia(id) {
     document.getElementById("poeta").innerText = '-'+ poetry.poeta;
     document.getElementById("poesia").innerText = poetry.poesia;
 
+    atualizarCompartilhamento();
 
     if (isPlayEnabled)
         carregarMusica(poetry.youtubeId, poetry.startTime, poetry.endTime || null);
+}
+
+/**
+ * Atualiza os links de compartilhamento com a frase exibida no momento
+ * @return void
+ */
+function atualizarCompartilhamento() {
+    var texto = '"' + poetry.estrofe + '" - ' + poetry.poeta + ' em ' + poetry.poesia;
+    var url = window.location.href;
+    var conteudo = encodeURIComponent(texto + ' ' + url);
+
+    var whatsappBtn = document.getElementById('whatsapp-share-btt');
+    if (whatsappBtn) {
+        whatsappBtn.href = 'https://api.whatsapp.com/send?text=' + conteudo;
+    }
+
+    var twitterBtn = document.getElementById('twitter-share-btt');
+    if (twitterBtn) {
+        twitterBtn.href = 'https://twitter.com/intent/tweet?text=' + conteudo;
+    }
+
+    var fbShareLink = document.querySelector('.fb-xfbml-parse-ignore');
+    if (fbShareLink) {
+        fbShareLink.href = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url);
+    }
 }
 
 /**
