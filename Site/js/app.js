@@ -169,8 +169,9 @@ function declarePoetry() {
     let storage = getStorage();
     if (!storage || !storage.length) {
         window.location.reload();
-    };
-  
+        return;
+    }
+
     let index = getIndex(storage);
     poetry = poetryCollection[index];
     exibirPoesia(index);
