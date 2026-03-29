@@ -46,6 +46,13 @@ function onReady() {
         evt.preventDefault();
         playYoutube();
     });
+
+    document.getElementById('btn-youtube').addEventListener('click', (evt) => {
+        evt.preventDefault();
+        abrirYoutube();
+    });
+
+    VisibilityAudioButtons();
 }
 
 /**
@@ -79,11 +86,11 @@ function getStorage() {
  * @return number
  */
 function getIndex(storageData) {
-    return storageData.shift() || 0;
+    return storageData.shift() ?? 0;
 }
 
 let poetryCollection, poetry;
-let isPlayEnabled = true;
+let isPlayEnabled = false;
 
 /**
  * Define as poesias no localStorage e exibe na tela
@@ -98,15 +105,11 @@ function setPoetry(data, id) {
 
     if (!storage || !storage.length) {
         let total = data.length;
-        let shuffle = [];
+        let shuffle = Array.from({length: total}, (_, i) => i);
 
-        for (let i = 0; i < total;) {
-            let key = randomNumber(total);
-
-            if (!shuffle[key]) {
-                shuffle[key] = i;
-                i++;
-            }
+        for (let i = total - 1; i > 0; i--) {
+            let j = Math.floor(Math.random() * (i + 1));
+            [shuffle[i], shuffle[j]] = [shuffle[j], shuffle[i]];
         }
 
         storage = shuffle;
@@ -124,11 +127,16 @@ function setPoetry(data, id) {
  * @return void
  */
 async function getPoetry(id) {
+    if (poetryCollection) {
+        setPoetry(poetryCollection, id);
+        return;
+    }
+
     try {
         let response = await fetch('poesias.json');
         if (response.status === 200) {
             let data = await response.json();
-            setPoetry(data,id);
+            setPoetry(data, id);
         }
     } catch (error) {
         throw new Error(`Erro ao obter dados do JSON: ${error}`);
@@ -196,8 +204,9 @@ function declarePoetry() {
     let storage = getStorage();
     if (!storage || !storage.length) {
         window.location.reload();
-    };
-  
+        return;
+    }
+
     let index = getIndex(storage);
     poetry = poetryCollection[index];
     exibirPoesia(index);
@@ -225,6 +234,15 @@ function playYoutube() {
 
     isPlayEnabled = true;
     VisibilityAudioButtons();
+}
+
+/**
+ * Abre o vídeo da poesia atual no YouTube em nova aba
+ * @return void
+ */
+function abrirYoutube() {
+    var url = 'https://www.youtube.com/watch?v=' + poetry.youtubeId + '&t=' + poetry.startTime + 's';
+    window.open(url, '_blank', 'noopener,noreferrer');
 }
 
 /**
